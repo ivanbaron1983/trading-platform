@@ -1,4 +1,15 @@
+# Archivos y carpetas de macOS
+.DS_Store
+.Trash/
+# Archivos del entorno virtual
 venv/
-__pycache__/
-*.pyc
-*.log
+# Archivos de configuración de usuario
+*.save
+*.history
+# Otros directorios innecesarios
+Library/
+Downloads/
+Movies/
+Music/
+Pictures/
+Public/
