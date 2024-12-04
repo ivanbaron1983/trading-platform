@@ -9,8 +9,6 @@ __pycache__/
 *.pyo
 
 # Archivos de configuración de entorno y claves
-.env
-*.env
 
 # Archivos de usuario y configuración temporal
 *.save
