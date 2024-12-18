@@ -1,11 +1,14 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from backend.app.config import settings
+from dotenv import load_dotenv
 
 
 # URL de conexión a PostgreSQL
-DATABASE_URL = f"postgresql://postgres:Carlos@localhost:5432/trading_platform"
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Crear el motor de la base de datos
 engine = create_engine(DATABASE_URL)
