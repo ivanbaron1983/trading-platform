@@ -1,21 +1,31 @@
-# Archivos y carpetas de macOS
+# Archivos y carpetas específicos de macOS
 .DS_Store
 .Trash/
+.AppleDouble
+._*
 
 # Archivos del entorno virtual
 venv/
+env/
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
 # Archivos de configuración de entorno y claves
+*.env
+*.env.*  # Si usas diferentes entornos como .env.development
+.env.local
+.env.production
+.env.test
 
-# Archivos de usuario y configuración temporal
+# Archivos temporales de usuario
 *.save
 *.history
 *.log
+*.swp  # Archivos temporales de Vim
 
-# Directorios específicos de tu sistema que no son parte del proyecto
+# Directorios específicos del sistema que no son parte del proyecto
 Library/
 Downloads/
 Movies/
@@ -26,14 +36,49 @@ Public/
 # Archivos y carpetas relacionados con pruebas
 *.pytest_cache/
 .cache/
+.coverage
+*.cover
+htmlcov/
+nosetests.xml
+coverage.xml
+*.prof
 
 # Archivos de herramientas y dependencias
-node_modules/  # Si hay uso de JavaScript en el proyecto
+node_modules/  # Si usas JavaScript/Node.js
 .idea/         # Archivos de JetBrains (PyCharm, IntelliJ)
 .vscode/       # Configuración de VS Code
+*.sublime-project
+*.sublime-workspace
 
 # Archivos de construcción y empaquetado
 build/
 dist/
 *.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Archivos de empaquetado y distribución
+*.wheel
+*.tar.gz
+*.zip
+
+# Configuraciones específicas de CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+
+# Bases de datos locales o archivos de almacenamiento
+*.sqlite3
+*.db
+*.sql
+
+# Configuraciones y logs específicos del sistema
+logs/
+*.log
+*.bak
+
+# Otros
+__snapshots__/  # Carpeta para pruebas visuales (si usas herramientas de snapshot testing)
+
 

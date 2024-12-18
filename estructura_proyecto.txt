@@ -1,0 +1,30 @@
+.
+├── README.md
+├── backend
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── db.py
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   ├── modules
+│   │   │   ├── __init__.py
+│   │   │   └── strategies
+│   │   │       └── __init__.py
+│   │   ├── requirements.txt
+│   │   ├── routes
+│   │   │   ├── __init__.py
+│   │   │   └── users.py
+│   │   └── utils.py
+│   └── tests
+│       ├── __init__.py
+│       ├── database.py
+│       ├── test_indicators.py
+│       ├── test_main.py
+│       └── test_users.py
+├── estructura_proyecto.txt
+├── frontend
+├── requirements.txt
+└── scripts
+
+9 directories, 19 files
