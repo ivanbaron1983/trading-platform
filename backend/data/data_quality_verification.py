@@ -56,7 +56,7 @@ def compare_with_daily_data(df_intraday, df_daily, symbol):
 
     return inconsistencies
 
-    def generate_report(df_intraday, df_daily, symbols):
+def generate_report(df_intraday, df_daily, symbols):
     """
     Genera un reporte de calidad para todos los símbolos.
     """
@@ -83,6 +83,7 @@ def compare_with_daily_data(df_intraday, df_daily, symbol):
             'inconsistencies_list': inconsistencies
         })
     return pd.DataFrame(report)
+
 # Cargar datos desde la base de datos
 df_intraday = pd.read_sql("SELECT * FROM sp500_intraday_data", engine)
 df_daily = pd.read_sql("SELECT * FROM sp500_data", engine)
@@ -98,4 +99,3 @@ report.to_csv("quality_report.csv", index=False)
 
 # Resumen de resultados
 print(report)
-

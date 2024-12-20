@@ -2,11 +2,9 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from backend.app.config import settings
 from dotenv import load_dotenv
 
-
-# URL de conexión a PostgreSQL
+# Cargar las variables de entorno
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 
@@ -19,7 +17,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 # Crear una clase base para los modelos
 Base = declarative_base()
 
-# Dependencia para obtener la sesión de base de datos en los endpoints
+# Dependencia para obtener la sesión de base de datos
 def get_db():
     db = SessionLocal()
     try:

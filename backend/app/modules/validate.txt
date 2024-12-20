@@ -1,0 +1,2014 @@
+(trading-platform-env) ivanbaron@192 trading-platform % python backend/app/modules/validate_and_clean_data.py
+2024-12-19 13:22:38,180 [INFO] Iniciando proceso de validación de datos...
+2024-12-19 13:22:41,139 [INFO] Se encontraron 502 símbolos en la base de datos.
+2024-12-19 13:22:41,140 [INFO] Procesando validación para RSG...
+2024-12-19 13:22:44,237 [INFO] Datos extraídos para RSG. Total de filas: 40175
+2024-12-19 13:22:44,253 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:22:44,254 [WARNING] Datos insuficientes para RSG: 12845 filas disponibles.
+2024-12-19 13:22:44,254 [INFO] Procesando validación para EXPD...
+2024-12-19 13:22:47,795 [INFO] Datos extraídos para EXPD. Total de filas: 40137
+2024-12-19 13:22:47,804 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:22:47,804 [WARNING] Datos insuficientes para EXPD: 12798 filas disponibles.
+2024-12-19 13:22:47,804 [INFO] Procesando validación para INVH...
+2024-12-19 13:22:51,051 [INFO] Datos extraídos para INVH. Total de filas: 40633
+2024-12-19 13:22:51,058 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:22:51,059 [WARNING] Datos insuficientes para INVH: 12943 filas disponibles.
+2024-12-19 13:22:51,059 [INFO] Procesando validación para GWW...
+2024-12-19 13:22:54,145 [INFO] Datos extraídos para GWW. Total de filas: 35578
+2024-12-19 13:22:54,152 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:22:54,152 [WARNING] Datos insuficientes para GWW: 11700 filas disponibles.
+2024-12-19 13:22:54,152 [INFO] Procesando validación para O...
+2024-12-19 13:22:57,415 [INFO] Datos extraídos para O. Total de filas: 58029
+2024-12-19 13:22:57,424 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:22:57,424 [WARNING] Datos insuficientes para O: 18732 filas disponibles.
+2024-12-19 13:22:57,424 [INFO] Procesando validación para ANSS...
+2024-12-19 13:23:00,977 [INFO] Datos extraídos para ANSS. Total de filas: 39259
+2024-12-19 13:23:00,985 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:00,985 [WARNING] Datos insuficientes para ANSS: 12690 filas disponibles.
+2024-12-19 13:23:00,985 [INFO] Procesando validación para IFF...
+2024-12-19 13:23:04,350 [INFO] Datos extraídos para IFF. Total de filas: 40843
+2024-12-19 13:23:04,358 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:04,358 [WARNING] Datos insuficientes para IFF: 13143 filas disponibles.
+2024-12-19 13:23:04,358 [INFO] Procesando validación para BR...
+2024-12-19 13:23:09,327 [INFO] Datos extraídos para BR. Total de filas: 39213
+2024-12-19 13:23:09,335 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:09,336 [WARNING] Datos insuficientes para BR: 12583 filas disponibles.
+2024-12-19 13:23:09,336 [INFO] Procesando validación para V...
+2024-12-19 13:23:14,861 [INFO] Datos extraídos para V. Total de filas: 46922
+2024-12-19 13:23:14,870 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:14,871 [WARNING] Datos insuficientes para V: 15788 filas disponibles.
+2024-12-19 13:23:14,871 [INFO] Procesando validación para SOLV...
+2024-12-19 13:23:19,750 [INFO] Datos extraídos para SOLV. Total de filas: 15209
+2024-12-19 13:23:19,774 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:19,774 [WARNING] Rango de fechas insuficiente para SOLV: 2024-04-01 09:00:00-04:00 a 2024-12-18 11:00:00-05:00
+2024-12-19 13:23:19,774 [INFO] Procesando validación para CCI...
+2024-12-19 13:23:24,914 [INFO] Datos extraídos para CCI. Total de filas: 41523
+2024-12-19 13:23:24,922 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:24,923 [WARNING] Datos insuficientes para CCI: 13325 filas disponibles.
+2024-12-19 13:23:24,923 [INFO] Procesando validación para TRV...
+2024-12-19 13:23:29,786 [INFO] Datos extraídos para TRV. Total de filas: 40713
+2024-12-19 13:23:29,794 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:29,794 [WARNING] Datos insuficientes para TRV: 12983 filas disponibles.
+2024-12-19 13:23:29,795 [INFO] Procesando validación para HPE...
+2024-12-19 13:23:34,588 [INFO] Datos extraídos para HPE. Total de filas: 48606
+2024-12-19 13:23:34,596 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:34,597 [WARNING] Datos insuficientes para HPE: 16183 filas disponibles.
+2024-12-19 13:23:34,597 [INFO] Procesando validación para AVGO...
+2024-12-19 13:23:41,047 [INFO] Datos extraídos para AVGO. Total de filas: 57192
+2024-12-19 13:23:41,072 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:41,072 [WARNING] Datos insuficientes para AVGO: 20613 filas disponibles.
+2024-12-19 13:23:41,072 [INFO] Procesando validación para PFE...
+2024-12-19 13:23:46,185 [INFO] Datos extraídos para PFE. Total de filas: 76847
+2024-12-19 13:23:46,197 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:46,197 [WARNING] Datos insuficientes para PFE: 29823 filas disponibles.
+2024-12-19 13:23:46,197 [INFO] Procesando validación para EFX...
+2024-12-19 13:23:51,292 [INFO] Datos extraídos para EFX. Total de filas: 40192
+2024-12-19 13:23:51,301 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:51,301 [WARNING] Datos insuficientes para EFX: 12952 filas disponibles.
+2024-12-19 13:23:51,301 [INFO] Procesando validación para BRO...
+2024-12-19 13:23:55,952 [INFO] Datos extraídos para BRO. Total de filas: 40271
+2024-12-19 13:23:55,960 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:23:55,960 [WARNING] Datos insuficientes para BRO: 12913 filas disponibles.
+2024-12-19 13:23:55,960 [INFO] Procesando validación para ROP...
+2024-12-19 13:24:01,507 [INFO] Datos extraídos para ROP. Total de filas: 39030
+2024-12-19 13:24:01,515 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:01,515 [WARNING] Datos insuficientes para ROP: 12657 filas disponibles.
+2024-12-19 13:24:01,515 [INFO] Procesando validación para VRTX...
+2024-12-19 13:24:06,533 [INFO] Datos extraídos para VRTX. Total de filas: 41500
+2024-12-19 13:24:06,540 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:06,541 [WARNING] Datos insuficientes para VRTX: 13573 filas disponibles.
+2024-12-19 13:24:06,541 [INFO] Procesando validación para AMP...
+2024-12-19 13:24:10,948 [INFO] Datos extraídos para AMP. Total de filas: 39285
+2024-12-19 13:24:10,956 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:10,956 [WARNING] Datos insuficientes para AMP: 12667 filas disponibles.
+2024-12-19 13:24:10,956 [INFO] Procesando validación para TER...
+2024-12-19 13:24:15,101 [INFO] Datos extraídos para TER. Total de filas: 42246
+2024-12-19 13:24:15,108 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:15,108 [WARNING] Datos insuficientes para TER: 13605 filas disponibles.
+2024-12-19 13:24:15,108 [INFO] Procesando validación para AMZN...
+2024-12-19 13:24:19,127 [INFO] Datos extraídos para AMZN. Total de filas: 91331
+2024-12-19 13:24:19,138 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:19,139 [WARNING] Datos insuficientes para AMZN: 34941 filas disponibles.
+2024-12-19 13:24:19,139 [INFO] Procesando validación para VRSN...
+2024-12-19 13:24:23,687 [INFO] Datos extraídos para VRSN. Total de filas: 39790
+2024-12-19 13:24:23,696 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:23,697 [WARNING] Datos insuficientes para VRSN: 12782 filas disponibles.
+2024-12-19 13:24:23,697 [INFO] Procesando validación para HES...
+2024-12-19 13:24:27,275 [INFO] Datos extraídos para HES. Total de filas: 41680
+2024-12-19 13:24:27,296 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:27,296 [WARNING] Datos insuficientes para HES: 13556 filas disponibles.
+2024-12-19 13:24:27,296 [INFO] Procesando validación para BAC...
+2024-12-19 13:24:31,558 [INFO] Datos extraídos para BAC. Total de filas: 75088
+2024-12-19 13:24:31,570 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:31,570 [WARNING] Datos insuficientes para BAC: 28966 filas disponibles.
+2024-12-19 13:24:31,570 [INFO] Procesando validación para MTCH...
+2024-12-19 13:24:37,622 [INFO] Datos extraídos para MTCH. Total de filas: 45310
+2024-12-19 13:24:37,632 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:37,633 [WARNING] Datos insuficientes para MTCH: 15015 filas disponibles.
+2024-12-19 13:24:37,633 [INFO] Procesando validación para DTE...
+2024-12-19 13:24:48,099 [INFO] Datos extraídos para DTE. Total de filas: 40091
+2024-12-19 13:24:48,117 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:48,118 [WARNING] Datos insuficientes para DTE: 12816 filas disponibles.
+2024-12-19 13:24:48,119 [INFO] Procesando validación para NUE...
+2024-12-19 13:24:54,082 [INFO] Datos extraídos para NUE. Total de filas: 42068
+2024-12-19 13:24:54,090 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:54,091 [WARNING] Datos insuficientes para NUE: 13674 filas disponibles.
+2024-12-19 13:24:54,091 [INFO] Procesando validación para EA...
+2024-12-19 13:24:59,983 [INFO] Datos extraídos para EA. Total de filas: 41889
+2024-12-19 13:24:59,991 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:24:59,991 [WARNING] Datos insuficientes para EA: 13886 filas disponibles.
+2024-12-19 13:24:59,991 [INFO] Procesando validación para CE...
+2024-12-19 13:25:05,023 [INFO] Datos extraídos para CE. Total de filas: 40392
+2024-12-19 13:25:05,031 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:05,031 [WARNING] Datos insuficientes para CE: 12906 filas disponibles.
+2024-12-19 13:25:05,032 [INFO] Procesando validación para MSI...
+2024-12-19 13:25:10,035 [INFO] Datos extraídos para MSI. Total de filas: 39877
+2024-12-19 13:25:10,043 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:10,044 [WARNING] Datos insuficientes para MSI: 12824 filas disponibles.
+2024-12-19 13:25:10,044 [INFO] Procesando validación para PCAR...
+2024-12-19 13:25:14,670 [INFO] Datos extraídos para PCAR. Total de filas: 41650
+2024-12-19 13:25:14,678 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:14,678 [WARNING] Datos insuficientes para PCAR: 13367 filas disponibles.
+2024-12-19 13:25:14,678 [INFO] Procesando validación para FI...
+2024-12-19 13:25:19,245 [INFO] Datos extraídos para FI. Total de filas: 41032
+2024-12-19 13:25:19,253 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:19,253 [WARNING] Datos insuficientes para FI: 13228 filas disponibles.
+2024-12-19 13:25:19,253 [INFO] Procesando validación para BBY...
+2024-12-19 13:25:23,534 [INFO] Datos extraídos para BBY. Total de filas: 43457
+2024-12-19 13:25:23,543 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:23,543 [WARNING] Datos insuficientes para BBY: 14287 filas disponibles.
+2024-12-19 13:25:23,543 [INFO] Procesando validación para MHK...
+2024-12-19 13:25:27,138 [INFO] Datos extraídos para MHK. Total de filas: 39889
+2024-12-19 13:25:27,145 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:27,146 [WARNING] Datos insuficientes para MHK: 12740 filas disponibles.
+2024-12-19 13:25:27,146 [INFO] Procesando validación para SHW...
+2024-12-19 13:25:30,581 [INFO] Datos extraídos para SHW. Total de filas: 40643
+2024-12-19 13:25:30,588 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:30,589 [WARNING] Datos insuficientes para SHW: 12978 filas disponibles.
+2024-12-19 13:25:30,589 [INFO] Procesando validación para SNPS...
+2024-12-19 13:25:34,153 [INFO] Datos extraídos para SNPS. Total de filas: 41599
+2024-12-19 13:25:34,161 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:34,161 [WARNING] Datos insuficientes para SNPS: 13528 filas disponibles.
+2024-12-19 13:25:34,161 [INFO] Procesando validación para ENPH...
+2024-12-19 13:25:37,741 [INFO] Datos extraídos para ENPH. Total de filas: 58686
+2024-12-19 13:25:37,750 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:37,750 [WARNING] Datos insuficientes para ENPH: 20725 filas disponibles.
+2024-12-19 13:25:37,750 [INFO] Procesando validación para AON...
+2024-12-19 13:25:41,280 [INFO] Datos extraídos para AON. Total de filas: 40096
+2024-12-19 13:25:41,289 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:41,289 [WARNING] Datos insuficientes para AON: 12879 filas disponibles.
+2024-12-19 13:25:41,289 [INFO] Procesando validación para TXN...
+2024-12-19 13:25:44,701 [INFO] Datos extraídos para TXN. Total de filas: 46082
+2024-12-19 13:25:44,709 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:44,709 [WARNING] Datos insuficientes para TXN: 15814 filas disponibles.
+2024-12-19 13:25:44,709 [INFO] Procesando validación para ES...
+2024-12-19 13:25:48,309 [INFO] Datos extraídos para ES. Total de filas: 40437
+2024-12-19 13:25:48,318 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:48,318 [WARNING] Datos insuficientes para ES: 12959 filas disponibles.
+2024-12-19 13:25:48,318 [INFO] Procesando validación para STE...
+2024-12-19 13:25:51,300 [INFO] Datos extraídos para STE. Total de filas: 39113
+2024-12-19 13:25:51,307 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:51,308 [WARNING] Datos insuficientes para STE: 12578 filas disponibles.
+2024-12-19 13:25:51,308 [INFO] Procesando validación para BA...
+2024-12-19 13:25:54,290 [INFO] Datos extraídos para BA. Total de filas: 66093
+2024-12-19 13:25:54,300 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:54,300 [WARNING] Datos insuficientes para BA: 25235 filas disponibles.
+2024-12-19 13:25:54,300 [INFO] Procesando validación para PSX...
+2024-12-19 13:25:57,253 [INFO] Datos extraídos para PSX. Total de filas: 43016
+2024-12-19 13:25:57,262 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:25:57,262 [WARNING] Datos insuficientes para PSX: 14027 filas disponibles.
+2024-12-19 13:25:57,262 [INFO] Procesando validación para HAL...
+2024-12-19 13:26:00,155 [INFO] Datos extraídos para HAL. Total de filas: 50628
+2024-12-19 13:26:00,163 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:00,164 [WARNING] Datos insuficientes para HAL: 16878 filas disponibles.
+2024-12-19 13:26:00,164 [INFO] Procesando validación para ON...
+2024-12-19 13:26:03,231 [INFO] Datos extraídos para ON. Total de filas: 52332
+2024-12-19 13:26:03,239 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:03,239 [WARNING] Datos insuficientes para ON: 17664 filas disponibles.
+2024-12-19 13:26:03,240 [INFO] Procesando validación para BF.B...
+2024-12-19 13:26:06,280 [INFO] Datos extraídos para BF.B. Total de filas: 40271
+2024-12-19 13:26:06,300 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:06,300 [WARNING] Datos insuficientes para BF.B: 12809 filas disponibles.
+2024-12-19 13:26:06,300 [INFO] Procesando validación para PHM...
+2024-12-19 13:26:09,221 [INFO] Datos extraídos para PHM. Total de filas: 42348
+2024-12-19 13:26:09,228 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:09,228 [WARNING] Datos insuficientes para PHM: 13564 filas disponibles.
+2024-12-19 13:26:09,228 [INFO] Procesando validación para MPC...
+2024-12-19 13:26:12,144 [INFO] Datos extraídos para MPC. Total de filas: 43556
+2024-12-19 13:26:12,152 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:12,152 [WARNING] Datos insuficientes para MPC: 14380 filas disponibles.
+2024-12-19 13:26:12,152 [INFO] Procesando validación para L...
+2024-12-19 13:26:15,917 [INFO] Datos extraídos para L. Total de filas: 39954
+2024-12-19 13:26:15,925 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:15,925 [WARNING] Datos insuficientes para L: 12770 filas disponibles.
+2024-12-19 13:26:15,925 [INFO] Procesando validación para PRU...
+2024-12-19 13:26:19,210 [INFO] Datos extraídos para PRU. Total de filas: 41589
+2024-12-19 13:26:19,218 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:19,218 [WARNING] Datos insuficientes para PRU: 13748 filas disponibles.
+2024-12-19 13:26:19,218 [INFO] Procesando validación para UNH...
+2024-12-19 13:26:22,875 [INFO] Datos extraídos para UNH. Total de filas: 45636
+2024-12-19 13:26:22,883 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:22,883 [WARNING] Datos insuficientes para UNH: 15627 filas disponibles.
+2024-12-19 13:26:22,883 [INFO] Procesando validación para FOXA...
+2024-12-19 13:26:26,202 [INFO] Datos extraídos para FOXA. Total de filas: 40861
+2024-12-19 13:26:26,210 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:26,210 [WARNING] Datos insuficientes para FOXA: 13139 filas disponibles.
+2024-12-19 13:26:26,210 [INFO] Procesando validación para MMM...
+2024-12-19 13:26:29,577 [INFO] Datos extraídos para MMM. Total de filas: 48242
+2024-12-19 13:26:29,587 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:29,588 [WARNING] Datos insuficientes para MMM: 16055 filas disponibles.
+2024-12-19 13:26:29,588 [INFO] Procesando validación para NOW...
+2024-12-19 13:26:33,050 [INFO] Datos extraídos para NOW. Total de filas: 43869
+2024-12-19 13:26:33,060 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:33,060 [WARNING] Datos insuficientes para NOW: 14725 filas disponibles.
+2024-12-19 13:26:33,060 [INFO] Procesando validación para DD...
+2024-12-19 13:26:38,064 [INFO] Datos extraídos para DD. Total de filas: 41999
+2024-12-19 13:26:38,073 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:38,073 [WARNING] Datos insuficientes para DD: 13683 filas disponibles.
+2024-12-19 13:26:38,073 [INFO] Procesando validación para AKAM...
+2024-12-19 13:26:42,171 [INFO] Datos extraídos para AKAM. Total de filas: 41589
+2024-12-19 13:26:42,179 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:42,179 [WARNING] Datos insuficientes para AKAM: 13486 filas disponibles.
+2024-12-19 13:26:42,179 [INFO] Procesando validación para DG...
+2024-12-19 13:26:46,144 [INFO] Datos extraídos para DG. Total de filas: 45141
+2024-12-19 13:26:46,152 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:46,153 [WARNING] Datos insuficientes para DG: 15124 filas disponibles.
+2024-12-19 13:26:46,153 [INFO] Procesando validación para TFX...
+2024-12-19 13:26:49,818 [INFO] Datos extraídos para TFX. Total de filas: 37146
+2024-12-19 13:26:49,826 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:49,826 [WARNING] Datos insuficientes para TFX: 12276 filas disponibles.
+2024-12-19 13:26:49,826 [INFO] Procesando validación para CRM...
+2024-12-19 13:26:53,433 [INFO] Datos extraídos para CRM. Total de filas: 53505
+2024-12-19 13:26:53,454 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:53,455 [WARNING] Datos insuficientes para CRM: 18453 filas disponibles.
+2024-12-19 13:26:53,455 [INFO] Procesando validación para NVR...
+2024-12-19 13:26:56,274 [INFO] Datos extraídos para NVR. Total de filas: 34023
+2024-12-19 13:26:56,281 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:56,282 [WARNING] Datos insuficientes para NVR: 11194 filas disponibles.
+2024-12-19 13:26:56,282 [INFO] Procesando validación para PKG...
+2024-12-19 13:26:58,945 [INFO] Datos extraídos para PKG. Total de filas: 39589
+2024-12-19 13:26:58,952 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:26:58,952 [WARNING] Datos insuficientes para PKG: 12686 filas disponibles.
+2024-12-19 13:26:58,952 [INFO] Procesando validación para HOLX...
+2024-12-19 13:27:01,659 [INFO] Datos extraídos para HOLX. Total de filas: 40417
+2024-12-19 13:27:01,679 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:01,679 [WARNING] Datos insuficientes para HOLX: 12981 filas disponibles.
+2024-12-19 13:27:01,679 [INFO] Procesando validación para CVS...
+2024-12-19 13:27:04,537 [INFO] Datos extraídos para CVS. Total de filas: 52632
+2024-12-19 13:27:04,546 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:04,546 [WARNING] Datos insuficientes para CVS: 18870 filas disponibles.
+2024-12-19 13:27:04,546 [INFO] Procesando validación para AES...
+2024-12-19 13:27:06,142 [INFO] Datos extraídos para AES. Total de filas: 43939
+2024-12-19 13:27:06,150 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:06,150 [WARNING] Datos insuficientes para AES: 13941 filas disponibles.
+2024-12-19 13:27:06,150 [INFO] Procesando validación para ELV...
+2024-12-19 13:27:08,830 [INFO] Datos extraídos para ELV. Total de filas: 40772
+2024-12-19 13:27:08,838 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:08,838 [WARNING] Datos insuficientes para ELV: 13030 filas disponibles.
+2024-12-19 13:27:08,838 [INFO] Procesando validación para ALGN...
+2024-12-19 13:27:11,523 [INFO] Datos extraídos para ALGN. Total de filas: 41175
+2024-12-19 13:27:11,530 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:11,530 [WARNING] Datos insuficientes para ALGN: 13398 filas disponibles.
+2024-12-19 13:27:11,530 [INFO] Procesando validación para PLD...
+2024-12-19 13:27:14,362 [INFO] Datos extraídos para PLD. Total de filas: 41325
+2024-12-19 13:27:14,370 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:14,370 [WARNING] Datos insuficientes para PLD: 13323 filas disponibles.
+2024-12-19 13:27:14,370 [INFO] Procesando validación para PNR...
+2024-12-19 13:27:17,210 [INFO] Datos extraídos para PNR. Total de filas: 40170
+2024-12-19 13:27:17,218 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:17,218 [WARNING] Datos insuficientes para PNR: 12834 filas disponibles.
+2024-12-19 13:27:17,218 [INFO] Procesando validación para GRMN...
+2024-12-19 13:27:20,102 [INFO] Datos extraídos para GRMN. Total de filas: 40175
+2024-12-19 13:27:20,109 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:20,109 [WARNING] Datos insuficientes para GRMN: 12848 filas disponibles.
+2024-12-19 13:27:20,109 [INFO] Procesando validación para DUK...
+2024-12-19 13:27:23,025 [INFO] Datos extraídos para DUK. Total de filas: 42304
+2024-12-19 13:27:23,034 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:23,034 [WARNING] Datos insuficientes para DUK: 13781 filas disponibles.
+2024-12-19 13:27:23,034 [INFO] Procesando validación para CTSH...
+2024-12-19 13:27:25,878 [INFO] Datos extraídos para CTSH. Total de filas: 41631
+2024-12-19 13:27:25,885 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:25,886 [WARNING] Datos insuficientes para CTSH: 13527 filas disponibles.
+2024-12-19 13:27:25,886 [INFO] Procesando validación para UPS...
+2024-12-19 13:27:28,800 [INFO] Datos extraídos para UPS. Total de filas: 45639
+2024-12-19 13:27:28,808 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:28,808 [WARNING] Datos insuficientes para UPS: 15641 filas disponibles.
+2024-12-19 13:27:28,808 [INFO] Procesando validación para PAYC...
+2024-12-19 13:27:31,675 [INFO] Datos extraídos para PAYC. Total de filas: 40883
+2024-12-19 13:27:31,684 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:31,684 [WARNING] Datos insuficientes para PAYC: 13278 filas disponibles.
+2024-12-19 13:27:31,684 [INFO] Procesando validación para MMC...
+2024-12-19 13:27:34,786 [INFO] Datos extraídos para MMC. Total de filas: 40276
+2024-12-19 13:27:34,793 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:34,794 [WARNING] Datos insuficientes para MMC: 12928 filas disponibles.
+2024-12-19 13:27:34,794 [INFO] Procesando validación para CZR...
+2024-12-19 13:27:38,001 [INFO] Datos extraídos para CZR. Total de filas: 44860
+2024-12-19 13:27:38,009 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:38,009 [WARNING] Datos insuficientes para CZR: 14805 filas disponibles.
+2024-12-19 13:27:38,009 [INFO] Procesando validación para SWKS...
+2024-12-19 13:27:41,188 [INFO] Datos extraídos para SWKS. Total de filas: 43165
+2024-12-19 13:27:41,196 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:41,196 [WARNING] Datos insuficientes para SWKS: 14223 filas disponibles.
+2024-12-19 13:27:41,196 [INFO] Procesando validación para D...
+2024-12-19 13:27:44,220 [INFO] Datos extraídos para D. Total de filas: 43325
+2024-12-19 13:27:44,228 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:44,228 [WARNING] Datos insuficientes para D: 14150 filas disponibles.
+2024-12-19 13:27:44,228 [INFO] Procesando validación para IDXX...
+2024-12-19 13:27:47,075 [INFO] Datos extraídos para IDXX. Total de filas: 39305
+2024-12-19 13:27:47,082 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:47,082 [WARNING] Datos insuficientes para IDXX: 12617 filas disponibles.
+2024-12-19 13:27:47,082 [INFO] Procesando validación para TRMB...
+2024-12-19 13:27:49,973 [INFO] Datos extraídos para TRMB. Total de filas: 40467
+2024-12-19 13:27:49,981 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:49,981 [WARNING] Datos insuficientes para TRMB: 12895 filas disponibles.
+2024-12-19 13:27:49,981 [INFO] Procesando validación para RMD...
+2024-12-19 13:27:52,906 [INFO] Datos extraídos para RMD. Total de filas: 40977
+2024-12-19 13:27:52,927 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:52,927 [WARNING] Datos insuficientes para RMD: 13131 filas disponibles.
+2024-12-19 13:27:52,927 [INFO] Procesando validación para FTV...
+2024-12-19 13:27:56,469 [INFO] Datos extraídos para FTV. Total de filas: 40257
+2024-12-19 13:27:56,476 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:56,476 [WARNING] Datos insuficientes para FTV: 12914 filas disponibles.
+2024-12-19 13:27:56,477 [INFO] Procesando validación para TECH...
+2024-12-19 13:27:59,565 [INFO] Datos extraídos para TECH. Total de filas: 40107
+2024-12-19 13:27:59,573 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:27:59,573 [WARNING] Datos insuficientes para TECH: 12803 filas disponibles.
+2024-12-19 13:27:59,573 [INFO] Procesando validación para ZTS...
+2024-12-19 13:28:02,827 [INFO] Datos extraídos para ZTS. Total de filas: 40956
+2024-12-19 13:28:02,835 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:02,835 [WARNING] Datos insuficientes para ZTS: 13102 filas disponibles.
+2024-12-19 13:28:02,836 [INFO] Procesando validación para ARE...
+2024-12-19 13:28:06,005 [INFO] Datos extraídos para ARE. Total de filas: 40505
+2024-12-19 13:28:06,012 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:06,012 [WARNING] Datos insuficientes para ARE: 12910 filas disponibles.
+2024-12-19 13:28:06,012 [INFO] Procesando validación para BMY...
+2024-12-19 13:28:09,101 [INFO] Datos extraídos para BMY. Total de filas: 50375
+2024-12-19 13:28:09,109 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:09,109 [WARNING] Datos insuficientes para BMY: 17821 filas disponibles.
+2024-12-19 13:28:09,109 [INFO] Procesando validación para HUM...
+2024-12-19 13:28:12,576 [INFO] Datos extraídos para HUM. Total de filas: 42783
+2024-12-19 13:28:12,584 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:12,584 [WARNING] Datos insuficientes para HUM: 14081 filas disponibles.
+2024-12-19 13:28:12,585 [INFO] Procesando validación para LDOS...
+2024-12-19 13:28:15,729 [INFO] Datos extraídos para LDOS. Total de filas: 40402
+2024-12-19 13:28:15,736 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:15,737 [WARNING] Datos insuficientes para LDOS: 12901 filas disponibles.
+2024-12-19 13:28:15,737 [INFO] Procesando validación para AMAT...
+2024-12-19 13:28:18,766 [INFO] Datos extraídos para AMAT. Total de filas: 53538
+2024-12-19 13:28:18,775 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:18,775 [WARNING] Datos insuficientes para AMAT: 18542 filas disponibles.
+2024-12-19 13:28:18,775 [INFO] Procesando validación para TROW...
+2024-12-19 13:28:21,803 [INFO] Datos extraídos para TROW. Total de filas: 41006
+2024-12-19 13:28:21,811 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:21,811 [WARNING] Datos insuficientes para TROW: 13131 filas disponibles.
+2024-12-19 13:28:21,811 [INFO] Procesando validación para HON...
+2024-12-19 13:28:24,936 [INFO] Datos extraídos para HON. Total de filas: 43462
+2024-12-19 13:28:24,943 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:24,944 [WARNING] Datos insuficientes para HON: 14425 filas disponibles.
+2024-12-19 13:28:24,944 [INFO] Procesando validación para EMN...
+2024-12-19 13:28:28,352 [INFO] Datos extraídos para EMN. Total de filas: 40126
+2024-12-19 13:28:28,360 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:28,360 [WARNING] Datos insuficientes para EMN: 12780 filas disponibles.
+2024-12-19 13:28:28,360 [INFO] Procesando validación para NEE...
+2024-12-19 13:28:31,386 [INFO] Datos extraídos para NEE. Total de filas: 49050
+2024-12-19 13:28:31,394 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:31,394 [WARNING] Datos insuficientes para NEE: 16367 filas disponibles.
+2024-12-19 13:28:31,394 [INFO] Procesando validación para HIG...
+2024-12-19 13:28:34,450 [INFO] Datos extraídos para HIG. Total de filas: 40337
+2024-12-19 13:28:34,457 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:34,458 [WARNING] Datos insuficientes para HIG: 12980 filas disponibles.
+2024-12-19 13:28:34,458 [INFO] Procesando validación para ABT...
+2024-12-19 13:28:37,564 [INFO] Datos extraídos para ABT. Total de filas: 43927
+2024-12-19 13:28:37,571 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:37,572 [WARNING] Datos insuficientes para ABT: 14786 filas disponibles.
+2024-12-19 13:28:37,572 [INFO] Procesando validación para PG...
+2024-12-19 13:28:41,142 [INFO] Datos extraídos para PG. Total de filas: 45980
+2024-12-19 13:28:41,151 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:41,151 [WARNING] Datos insuficientes para PG: 15510 filas disponibles.
+2024-12-19 13:28:41,151 [INFO] Procesando validación para ALL...
+2024-12-19 13:28:44,486 [INFO] Datos extraídos para ALL. Total de filas: 40684
+2024-12-19 13:28:44,494 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:44,494 [WARNING] Datos insuficientes para ALL: 13117 filas disponibles.
+2024-12-19 13:28:44,494 [INFO] Procesando validación para COR...
+2024-12-19 13:28:47,750 [INFO] Datos extraídos para COR. Total de filas: 40293
+2024-12-19 13:28:47,758 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:47,758 [WARNING] Datos insuficientes para COR: 12892 filas disponibles.
+2024-12-19 13:28:47,758 [INFO] Procesando validación para DHI...
+2024-12-19 13:28:51,045 [INFO] Datos extraídos para DHI. Total de filas: 43572
+2024-12-19 13:28:51,053 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:51,053 [WARNING] Datos insuficientes para DHI: 14033 filas disponibles.
+2024-12-19 13:28:51,053 [INFO] Procesando validación para SPG...
+2024-12-19 13:28:54,249 [INFO] Datos extraídos para SPG. Total de filas: 41577
+2024-12-19 13:28:54,257 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:54,257 [WARNING] Datos insuficientes para SPG: 13410 filas disponibles.
+2024-12-19 13:28:54,258 [INFO] Procesando validación para BWA...
+2024-12-19 13:28:57,234 [INFO] Datos extraídos para BWA. Total de filas: 41003
+2024-12-19 13:28:57,242 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:28:57,242 [WARNING] Datos insuficientes para BWA: 12985 filas disponibles.
+2024-12-19 13:28:57,242 [INFO] Procesando validación para QRVO...
+2024-12-19 13:29:00,466 [INFO] Datos extraídos para QRVO. Total de filas: 41659
+2024-12-19 13:29:00,474 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:00,474 [WARNING] Datos insuficientes para QRVO: 13604 filas disponibles.
+2024-12-19 13:29:00,474 [INFO] Procesando validación para AMGN...
+2024-12-19 13:29:03,826 [INFO] Datos extraídos para AMGN. Total de filas: 43554
+2024-12-19 13:29:03,834 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:03,834 [WARNING] Datos insuficientes para AMGN: 14523 filas disponibles.
+2024-12-19 13:29:03,835 [INFO] Procesando validación para USB...
+2024-12-19 13:29:07,047 [INFO] Datos extraídos para USB. Total de filas: 48078
+2024-12-19 13:29:07,067 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:07,067 [WARNING] Datos insuficientes para USB: 16198 filas disponibles.
+2024-12-19 13:29:07,068 [INFO] Procesando validación para LKQ...
+2024-12-19 13:29:10,776 [INFO] Datos extraídos para LKQ. Total de filas: 40334
+2024-12-19 13:29:10,783 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:10,783 [WARNING] Datos insuficientes para LKQ: 12895 filas disponibles.
+2024-12-19 13:29:10,783 [INFO] Procesando validación para STT...
+2024-12-19 13:29:13,701 [INFO] Datos extraídos para STT. Total de filas: 41037
+2024-12-19 13:29:13,709 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:13,709 [WARNING] Datos insuficientes para STT: 13238 filas disponibles.
+2024-12-19 13:29:13,709 [INFO] Procesando validación para MLM...
+2024-12-19 13:29:16,457 [INFO] Datos extraídos para MLM. Total de filas: 38906
+2024-12-19 13:29:16,477 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:16,477 [WARNING] Datos insuficientes para MLM: 12635 filas disponibles.
+2024-12-19 13:29:16,477 [INFO] Procesando validación para SBAC...
+2024-12-19 13:29:19,223 [INFO] Datos extraídos para SBAC. Total de filas: 40064
+2024-12-19 13:29:19,230 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:19,230 [WARNING] Datos insuficientes para SBAC: 12834 filas disponibles.
+2024-12-19 13:29:19,231 [INFO] Procesando validación para GEN...
+2024-12-19 13:29:21,921 [INFO] Datos extraídos para GEN. Total de filas: 41334
+2024-12-19 13:29:21,929 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:21,929 [WARNING] Datos insuficientes para GEN: 13201 filas disponibles.
+2024-12-19 13:29:21,929 [INFO] Procesando validación para AFL...
+2024-12-19 13:29:24,714 [INFO] Datos extraídos para AFL. Total de filas: 40908
+2024-12-19 13:29:24,722 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:24,722 [WARNING] Datos insuficientes para AFL: 13155 filas disponibles.
+2024-12-19 13:29:24,722 [INFO] Procesando validación para GLW...
+2024-12-19 13:29:27,786 [INFO] Datos extraídos para GLW. Total de filas: 43651
+2024-12-19 13:29:27,794 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:27,794 [WARNING] Datos insuficientes para GLW: 14178 filas disponibles.
+2024-12-19 13:29:27,794 [INFO] Procesando validación para HRL...
+2024-12-19 13:29:30,484 [INFO] Datos extraídos para HRL. Total de filas: 41601
+2024-12-19 13:29:30,491 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:30,492 [WARNING] Datos insuficientes para HRL: 13231 filas disponibles.
+2024-12-19 13:29:30,492 [INFO] Procesando validación para GOOGL...
+2024-12-19 13:29:33,317 [INFO] Datos extraídos para GOOGL. Total de filas: 84941
+2024-12-19 13:29:33,328 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:33,328 [WARNING] Datos insuficientes para GOOGL: 31965 filas disponibles.
+2024-12-19 13:29:33,328 [INFO] Procesando validación para TRGP...
+2024-12-19 13:29:35,996 [INFO] Datos extraídos para TRGP. Total de filas: 40398
+2024-12-19 13:29:36,005 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:36,005 [WARNING] Datos insuficientes para TRGP: 12896 filas disponibles.
+2024-12-19 13:29:36,005 [INFO] Procesando validación para KLAC...
+2024-12-19 13:29:38,626 [INFO] Datos extraídos para KLAC. Total de filas: 41945
+2024-12-19 13:29:38,634 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:38,635 [WARNING] Datos insuficientes para KLAC: 13786 filas disponibles.
+2024-12-19 13:29:38,635 [INFO] Procesando validación para FICO...
+2024-12-19 13:29:41,169 [INFO] Datos extraídos para FICO. Total de filas: 31251
+2024-12-19 13:29:41,176 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:41,176 [WARNING] Datos insuficientes para FICO: 10681 filas disponibles.
+2024-12-19 13:29:41,176 [INFO] Procesando validación para MNST...
+2024-12-19 13:29:43,765 [INFO] Datos extraídos para MNST. Total de filas: 43625
+2024-12-19 13:29:43,773 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:43,773 [WARNING] Datos insuficientes para MNST: 14368 filas disponibles.
+2024-12-19 13:29:43,773 [INFO] Procesando validación para GDDY...
+2024-12-19 13:29:46,397 [INFO] Datos extraídos para GDDY. Total de filas: 40760
+2024-12-19 13:29:46,404 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:46,404 [WARNING] Datos insuficientes para GDDY: 13076 filas disponibles.
+2024-12-19 13:29:46,405 [INFO] Procesando validación para NXPI...
+2024-12-19 13:29:49,043 [INFO] Datos extraídos para NXPI. Total de filas: 43724
+2024-12-19 13:29:49,051 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:49,051 [WARNING] Datos insuficientes para NXPI: 14672 filas disponibles.
+2024-12-19 13:29:49,051 [INFO] Procesando validación para CSGP...
+2024-12-19 13:29:51,736 [INFO] Datos extraídos para CSGP. Total de filas: 40932
+2024-12-19 13:29:51,745 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:51,745 [WARNING] Datos insuficientes para CSGP: 13196 filas disponibles.
+2024-12-19 13:29:51,745 [INFO] Procesando validación para TAP...
+2024-12-19 13:29:54,394 [INFO] Datos extraídos para TAP. Total de filas: 40761
+2024-12-19 13:29:54,401 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:54,401 [WARNING] Datos insuficientes para TAP: 13042 filas disponibles.
+2024-12-19 13:29:54,402 [INFO] Procesando validación para AJG...
+2024-12-19 13:29:56,964 [INFO] Datos extraídos para AJG. Total de filas: 40152
+2024-12-19 13:29:56,972 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:56,972 [WARNING] Datos insuficientes para AJG: 12897 filas disponibles.
+2024-12-19 13:29:56,972 [INFO] Procesando validación para ADM...
+2024-12-19 13:29:59,584 [INFO] Datos extraídos para ADM. Total de filas: 43292
+2024-12-19 13:29:59,591 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:29:59,592 [WARNING] Datos insuficientes para ADM: 13970 filas disponibles.
+2024-12-19 13:29:59,592 [INFO] Procesando validación para PPL...
+2024-12-19 13:30:02,981 [INFO] Datos extraídos para PPL. Total de filas: 41182
+2024-12-19 13:30:02,989 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:02,989 [WARNING] Datos insuficientes para PPL: 13068 filas disponibles.
+2024-12-19 13:30:02,989 [INFO] Procesando validación para LRCX...
+2024-12-19 13:30:06,245 [INFO] Datos extraídos para LRCX. Total de filas: 46311
+2024-12-19 13:30:06,252 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:06,253 [WARNING] Datos insuficientes para LRCX: 15679 filas disponibles.
+2024-12-19 13:30:06,253 [INFO] Procesando validación para NFLX...
+2024-12-19 13:30:09,239 [INFO] Datos extraídos para NFLX. Total de filas: 58952
+2024-12-19 13:30:09,248 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:09,249 [WARNING] Datos insuficientes para NFLX: 21313 filas disponibles.
+2024-12-19 13:30:09,249 [INFO] Procesando validación para EVRG...
+2024-12-19 13:30:12,237 [INFO] Datos extraídos para EVRG. Total de filas: 40459
+2024-12-19 13:30:12,245 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:12,245 [WARNING] Datos insuficientes para EVRG: 12875 filas disponibles.
+2024-12-19 13:30:12,245 [INFO] Procesando validación para MKC...
+2024-12-19 13:30:15,211 [INFO] Datos extraídos para MKC. Total de filas: 40614
+2024-12-19 13:30:15,218 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:15,218 [WARNING] Datos insuficientes para MKC: 12957 filas disponibles.
+2024-12-19 13:30:15,218 [INFO] Procesando validación para HII...
+2024-12-19 13:30:18,182 [INFO] Datos extraídos para HII. Total de filas: 37283
+2024-12-19 13:30:18,189 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:18,189 [WARNING] Datos insuficientes para HII: 12253 filas disponibles.
+2024-12-19 13:30:18,189 [INFO] Procesando validación para WFC...
+2024-12-19 13:30:21,087 [INFO] Datos extraídos para WFC. Total de filas: 54972
+2024-12-19 13:30:21,096 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:21,096 [WARNING] Datos insuficientes para WFC: 20156 filas disponibles.
+2024-12-19 13:30:21,096 [INFO] Procesando validación para BLK...
+2024-12-19 13:30:23,987 [INFO] Datos extraídos para BLK. Total de filas: 40477
+2024-12-19 13:30:23,996 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:23,996 [WARNING] Datos insuficientes para BLK: 13228 filas disponibles.
+2024-12-19 13:30:23,997 [INFO] Procesando validación para KO...
+2024-12-19 13:30:26,869 [INFO] Datos extraídos para KO. Total de filas: 59060
+2024-12-19 13:30:26,878 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:26,878 [WARNING] Datos insuficientes para KO: 20550 filas disponibles.
+2024-12-19 13:30:26,878 [INFO] Procesando validación para HST...
+2024-12-19 13:30:29,693 [INFO] Datos extraídos para HST. Total de filas: 41097
+2024-12-19 13:30:29,701 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:29,701 [WARNING] Datos insuficientes para HST: 13157 filas disponibles.
+2024-12-19 13:30:29,701 [INFO] Procesando validación para GIS...
+2024-12-19 13:30:32,642 [INFO] Datos extraídos para GIS. Total de filas: 42750
+2024-12-19 13:30:32,649 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:32,650 [WARNING] Datos insuficientes para GIS: 13752 filas disponibles.
+2024-12-19 13:30:32,650 [INFO] Procesando validación para WYNN...
+2024-12-19 13:30:35,542 [INFO] Datos extraídos para WYNN. Total de filas: 46762
+2024-12-19 13:30:35,550 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:35,551 [WARNING] Datos insuficientes para WYNN: 15742 filas disponibles.
+2024-12-19 13:30:35,551 [INFO] Procesando validación para TMUS...
+2024-12-19 13:30:38,408 [INFO] Datos extraídos para TMUS. Total de filas: 44570
+2024-12-19 13:30:38,416 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:38,416 [WARNING] Datos insuficientes para TMUS: 15329 filas disponibles.
+2024-12-19 13:30:38,416 [INFO] Procesando validación para CMS...
+2024-12-19 13:30:41,217 [INFO] Datos extraídos para CMS. Total de filas: 40117
+2024-12-19 13:30:41,225 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:41,225 [WARNING] Datos insuficientes para CMS: 12801 filas disponibles.
+2024-12-19 13:30:41,225 [INFO] Procesando validación para DOC...
+2024-12-19 13:30:44,020 [INFO] Datos extraídos para DOC. Total de filas: 41050
+2024-12-19 13:30:44,028 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:44,028 [WARNING] Datos insuficientes para DOC: 13101 filas disponibles.
+2024-12-19 13:30:44,028 [INFO] Procesando validación para NI...
+2024-12-19 13:30:46,843 [INFO] Datos extraídos para NI. Total de filas: 40506
+2024-12-19 13:30:46,851 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:46,851 [WARNING] Datos insuficientes para NI: 12916 filas disponibles.
+2024-12-19 13:30:46,851 [INFO] Procesando validación para CPB...
+2024-12-19 13:30:49,583 [INFO] Datos extraídos para CPB. Total de filas: 41628
+2024-12-19 13:30:49,591 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:49,592 [WARNING] Datos insuficientes para CPB: 13481 filas disponibles.
+2024-12-19 13:30:49,592 [INFO] Procesando validación para PPG...
+2024-12-19 13:30:52,378 [INFO] Datos extraídos para PPG. Total de filas: 40725
+2024-12-19 13:30:52,386 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:52,386 [WARNING] Datos insuficientes para PPG: 13261 filas disponibles.
+2024-12-19 13:30:52,386 [INFO] Procesando validación para ROK...
+2024-12-19 13:30:55,280 [INFO] Datos extraídos para ROK. Total de filas: 40396
+2024-12-19 13:30:55,287 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:55,288 [WARNING] Datos insuficientes para ROK: 12941 filas disponibles.
+2024-12-19 13:30:55,288 [INFO] Procesando validación para ADI...
+2024-12-19 13:30:58,124 [INFO] Datos extraídos para ADI. Total de filas: 43484
+2024-12-19 13:30:58,133 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:30:58,133 [WARNING] Datos insuficientes para ADI: 14596 filas disponibles.
+2024-12-19 13:30:58,133 [INFO] Procesando validación para LMT...
+2024-12-19 13:31:01,008 [INFO] Datos extraídos para LMT. Total de filas: 42481
+2024-12-19 13:31:01,017 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:01,017 [WARNING] Datos insuficientes para LMT: 13796 filas disponibles.
+2024-12-19 13:31:01,017 [INFO] Procesando validación para CHD...
+2024-12-19 13:31:03,835 [INFO] Datos extraídos para CHD. Total de filas: 40278
+2024-12-19 13:31:03,843 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:03,843 [WARNING] Datos insuficientes para CHD: 12822 filas disponibles.
+2024-12-19 13:31:03,843 [INFO] Procesando validación para BXP...
+2024-12-19 13:31:06,580 [INFO] Datos extraídos para BXP. Total de filas: 40992
+2024-12-19 13:31:06,587 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:06,588 [WARNING] Datos insuficientes para BXP: 13116 filas disponibles.
+2024-12-19 13:31:06,588 [INFO] Procesando validación para WMT...
+2024-12-19 13:31:09,410 [INFO] Datos extraídos para WMT. Total de filas: 56740
+2024-12-19 13:31:09,419 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:09,419 [WARNING] Datos insuficientes para WMT: 20796 filas disponibles.
+2024-12-19 13:31:09,419 [INFO] Procesando validación para STX...
+2024-12-19 13:31:12,118 [INFO] Datos extraídos para STX. Total de filas: 42451
+2024-12-19 13:31:12,125 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:12,126 [WARNING] Datos insuficientes para STX: 13712 filas disponibles.
+2024-12-19 13:31:12,126 [INFO] Procesando validación para AXP...
+2024-12-19 13:31:14,712 [INFO] Datos extraídos para AXP. Total de filas: 45630
+2024-12-19 13:31:14,719 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:14,720 [WARNING] Datos insuficientes para AXP: 15355 filas disponibles.
+2024-12-19 13:31:14,720 [INFO] Procesando validación para RF...
+2024-12-19 13:31:17,278 [INFO] Datos extraídos para RF. Total de filas: 43110
+2024-12-19 13:31:17,298 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:17,298 [WARNING] Datos insuficientes para RF: 13736 filas disponibles.
+2024-12-19 13:31:17,298 [INFO] Procesando validación para POOL...
+2024-12-19 13:31:19,880 [INFO] Datos extraídos para POOL. Total de filas: 38621
+2024-12-19 13:31:19,887 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:19,887 [WARNING] Datos insuficientes para POOL: 12500 filas disponibles.
+2024-12-19 13:31:19,887 [INFO] Procesando validación para ABBV...
+2024-12-19 13:31:22,801 [INFO] Datos extraídos para ABBV. Total de filas: 45247
+2024-12-19 13:31:22,810 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:22,810 [WARNING] Datos insuficientes para ABBV: 15340 filas disponibles.
+2024-12-19 13:31:22,810 [INFO] Procesando validación para KEYS...
+2024-12-19 13:31:25,457 [INFO] Datos extraídos para KEYS. Total de filas: 40649
+2024-12-19 13:31:25,466 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:25,467 [WARNING] Datos insuficientes para KEYS: 13083 filas disponibles.
+2024-12-19 13:31:25,467 [INFO] Procesando validación para WRB...
+2024-12-19 13:31:28,568 [INFO] Datos extraídos para WRB. Total de filas: 40230
+2024-12-19 13:31:28,578 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:28,579 [WARNING] Datos insuficientes para WRB: 12860 filas disponibles.
+2024-12-19 13:31:28,579 [INFO] Procesando validación para MSFT...
+2024-12-19 13:31:31,383 [INFO] Datos extraídos para MSFT. Total de filas: 83822
+2024-12-19 13:31:31,394 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:31,394 [WARNING] Datos insuficientes para MSFT: 31351 filas disponibles.
+2024-12-19 13:31:31,395 [INFO] Procesando validación para FSLR...
+2024-12-19 13:31:36,215 [INFO] Datos extraídos para FSLR. Total de filas: 50263
+2024-12-19 13:31:36,225 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:36,225 [WARNING] Datos insuficientes para FSLR: 16585 filas disponibles.
+2024-12-19 13:31:36,225 [INFO] Procesando validación para TEL...
+2024-12-19 13:31:40,168 [INFO] Datos extraídos para TEL. Total de filas: 40220
+2024-12-19 13:31:40,176 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:40,176 [WARNING] Datos insuficientes para TEL: 12864 filas disponibles.
+2024-12-19 13:31:40,176 [INFO] Procesando validación para RL...
+2024-12-19 13:31:43,243 [INFO] Datos extraídos para RL. Total de filas: 40599
+2024-12-19 13:31:43,251 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:43,251 [WARNING] Datos insuficientes para RL: 12957 filas disponibles.
+2024-12-19 13:31:43,251 [INFO] Procesando validación para MAS...
+2024-12-19 13:31:46,258 [INFO] Datos extraídos para MAS. Total de filas: 40384
+2024-12-19 13:31:46,278 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:46,278 [WARNING] Datos insuficientes para MAS: 12887 filas disponibles.
+2024-12-19 13:31:46,278 [INFO] Procesando validación para CSX...
+2024-12-19 13:31:49,904 [INFO] Datos extraídos para CSX. Total de filas: 44667
+2024-12-19 13:31:49,912 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:49,912 [WARNING] Datos insuficientes para CSX: 14888 filas disponibles.
+2024-12-19 13:31:49,912 [INFO] Procesando validación para PSA...
+2024-12-19 13:31:52,844 [INFO] Datos extraídos para PSA. Total de filas: 40100
+2024-12-19 13:31:52,853 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:52,853 [WARNING] Datos insuficientes para PSA: 12821 filas disponibles.
+2024-12-19 13:31:52,853 [INFO] Procesando validación para GOOG...
+2024-12-19 13:31:55,935 [INFO] Datos extraídos para GOOG. Total de filas: 81267
+2024-12-19 13:31:55,946 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:55,946 [WARNING] Datos insuficientes para GOOG: 30334 filas disponibles.
+2024-12-19 13:31:55,946 [INFO] Procesando validación para LW...
+2024-12-19 13:31:58,773 [INFO] Datos extraídos para LW. Total de filas: 41174
+2024-12-19 13:31:58,782 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:31:58,782 [WARNING] Datos insuficientes para LW: 13312 filas disponibles.
+2024-12-19 13:31:58,783 [INFO] Procesando validación para IRM...
+2024-12-19 13:32:01,582 [INFO] Datos extraídos para IRM. Total de filas: 41135
+2024-12-19 13:32:01,590 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:01,590 [WARNING] Datos insuficientes para IRM: 13039 filas disponibles.
+2024-12-19 13:32:01,590 [INFO] Procesando validación para WMB...
+2024-12-19 13:32:04,792 [INFO] Datos extraídos para WMB. Total de filas: 42414
+2024-12-19 13:32:04,800 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:04,800 [WARNING] Datos insuficientes para WMB: 13973 filas disponibles.
+2024-12-19 13:32:04,800 [INFO] Procesando validación para WAB...
+2024-12-19 13:32:07,649 [INFO] Datos extraídos para WAB. Total de filas: 40091
+2024-12-19 13:32:07,656 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:07,657 [WARNING] Datos insuficientes para WAB: 12798 filas disponibles.
+2024-12-19 13:32:07,657 [INFO] Procesando validación para ACN...
+2024-12-19 13:32:13,527 [INFO] Datos extraídos para ACN. Total de filas: 42240
+2024-12-19 13:32:13,536 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:13,536 [WARNING] Datos insuficientes para ACN: 13971 filas disponibles.
+2024-12-19 13:32:13,536 [INFO] Procesando validación para TTWO...
+2024-12-19 13:32:18,195 [INFO] Datos extraídos para TTWO. Total de filas: 42336
+2024-12-19 13:32:18,203 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:18,203 [WARNING] Datos insuficientes para TTWO: 13819 filas disponibles.
+2024-12-19 13:32:18,204 [INFO] Procesando validación para RVTY...
+2024-12-19 13:32:22,294 [INFO] Datos extraídos para RVTY. Total de filas: 39976
+2024-12-19 13:32:22,302 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:22,302 [WARNING] Datos insuficientes para RVTY: 12766 filas disponibles.
+2024-12-19 13:32:22,302 [INFO] Procesando validación para ODFL...
+2024-12-19 13:32:27,323 [INFO] Datos extraídos para ODFL. Total de filas: 40630
+2024-12-19 13:32:27,332 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:27,332 [WARNING] Datos insuficientes para ODFL: 13058 filas disponibles.
+2024-12-19 13:32:27,332 [INFO] Procesando validación para HLT...
+2024-12-19 13:32:31,694 [INFO] Datos extraídos para HLT. Total de filas: 40804
+2024-12-19 13:32:31,702 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:31,702 [WARNING] Datos insuficientes para HLT: 13101 filas disponibles.
+2024-12-19 13:32:31,703 [INFO] Procesando validación para DPZ...
+2024-12-19 13:32:35,774 [INFO] Datos extraídos para DPZ. Total de filas: 40725
+2024-12-19 13:32:35,782 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:35,782 [WARNING] Datos insuficientes para DPZ: 13139 filas disponibles.
+2024-12-19 13:32:35,782 [INFO] Procesando validación para VTR...
+2024-12-19 13:32:39,439 [INFO] Datos extraídos para VTR. Total de filas: 40663
+2024-12-19 13:32:39,446 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:39,447 [WARNING] Datos insuficientes para VTR: 12998 filas disponibles.
+2024-12-19 13:32:39,447 [INFO] Procesando validación para DLTR...
+2024-12-19 13:32:43,037 [INFO] Datos extraídos para DLTR. Total de filas: 43710
+2024-12-19 13:32:43,044 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:43,044 [WARNING] Datos insuficientes para DLTR: 14481 filas disponibles.
+2024-12-19 13:32:43,045 [INFO] Procesando validación para CTRA...
+2024-12-19 13:32:46,297 [INFO] Datos extraídos para CTRA. Total de filas: 48912
+2024-12-19 13:32:46,306 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:46,306 [WARNING] Datos insuficientes para CTRA: 16621 filas disponibles.
+2024-12-19 13:32:46,306 [INFO] Procesando validación para CMCSA...
+2024-12-19 13:32:49,529 [INFO] Datos extraídos para CMCSA. Total de filas: 48542
+2024-12-19 13:32:49,537 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:49,537 [WARNING] Datos insuficientes para CMCSA: 17048 filas disponibles.
+2024-12-19 13:32:49,537 [INFO] Procesando validación para ABNB...
+2024-12-19 13:32:52,712 [INFO] Datos extraídos para ABNB. Total de filas: 54328
+2024-12-19 13:32:52,721 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:52,721 [WARNING] Datos insuficientes para ABNB: 19131 filas disponibles.
+2024-12-19 13:32:52,721 [INFO] Procesando validación para FDX...
+2024-12-19 13:32:55,667 [INFO] Datos extraídos para FDX. Total de filas: 44493
+2024-12-19 13:32:55,675 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:55,676 [WARNING] Datos insuficientes para FDX: 15077 filas disponibles.
+2024-12-19 13:32:55,676 [INFO] Procesando validación para CHTR...
+2024-12-19 13:32:58,052 [INFO] Datos extraídos para CHTR. Total de filas: 41334
+2024-12-19 13:32:58,060 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:32:58,061 [WARNING] Datos insuficientes para CHTR: 13459 filas disponibles.
+2024-12-19 13:32:58,061 [INFO] Procesando validación para NWS...
+2024-12-19 13:33:00,107 [INFO] Datos extraídos para NWS. Total de filas: 39971
+2024-12-19 13:33:00,115 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:00,115 [WARNING] Datos insuficientes para NWS: 12711 filas disponibles.
+2024-12-19 13:33:00,115 [INFO] Procesando validación para MDLZ...
+2024-12-19 13:33:01,919 [INFO] Datos extraídos para MDLZ. Total de filas: 44023
+2024-12-19 13:33:01,927 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:01,927 [WARNING] Datos insuficientes para MDLZ: 14449 filas disponibles.
+2024-12-19 13:33:01,927 [INFO] Procesando validación para DHR...
+2024-12-19 13:33:03,575 [INFO] Datos extraídos para DHR. Total de filas: 42106
+2024-12-19 13:33:03,596 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:03,596 [WARNING] Datos insuficientes para DHR: 13652 filas disponibles.
+2024-12-19 13:33:03,596 [INFO] Procesando validación para NOC...
+2024-12-19 13:33:05,327 [INFO] Datos extraídos para NOC. Total de filas: 40800
+2024-12-19 13:33:05,334 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:05,334 [WARNING] Datos insuficientes para NOC: 13215 filas disponibles.
+2024-12-19 13:33:05,334 [INFO] Procesando validación para KMX...
+2024-12-19 13:33:07,103 [INFO] Datos extraídos para KMX. Total de filas: 41966
+2024-12-19 13:33:07,110 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:07,111 [WARNING] Datos insuficientes para KMX: 13561 filas disponibles.
+2024-12-19 13:33:07,111 [INFO] Procesando validación para SYY...
+2024-12-19 13:33:08,826 [INFO] Datos extraídos para SYY. Total de filas: 40660
+2024-12-19 13:33:08,834 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:08,834 [WARNING] Datos insuficientes para SYY: 13019 filas disponibles.
+2024-12-19 13:33:08,834 [INFO] Procesando validación para PARA...
+2024-12-19 13:33:10,710 [INFO] Datos extraídos para PARA. Total de filas: 59631
+2024-12-19 13:33:10,719 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:10,719 [WARNING] Datos insuficientes para PARA: 22438 filas disponibles.
+2024-12-19 13:33:10,719 [INFO] Procesando validación para VLTO...
+2024-12-19 13:33:12,332 [INFO] Datos extraídos para VLTO. Total de filas: 24830
+2024-12-19 13:33:12,339 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:12,339 [WARNING] Rango de fechas insuficiente para VLTO: 2023-10-02 09:00:00-04:00 a 2024-12-18 12:05:00-05:00
+2024-12-19 13:33:12,339 [INFO] Procesando validación para EXR...
+2024-12-19 13:33:14,109 [INFO] Datos extraídos para EXR. Total de filas: 40152
+2024-12-19 13:33:14,129 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:14,129 [WARNING] Datos insuficientes para EXR: 12773 filas disponibles.
+2024-12-19 13:33:14,130 [INFO] Procesando validación para INTU...
+2024-12-19 13:33:15,887 [INFO] Datos extraídos para INTU. Total de filas: 41988
+2024-12-19 13:33:15,895 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:15,895 [WARNING] Datos insuficientes para INTU: 13975 filas disponibles.
+2024-12-19 13:33:15,895 [INFO] Procesando validación para TDY...
+2024-12-19 13:33:17,632 [INFO] Datos extraídos para TDY. Total de filas: 34850
+2024-12-19 13:33:17,639 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:17,639 [WARNING] Datos insuficientes para TDY: 11771 filas disponibles.
+2024-12-19 13:33:17,639 [INFO] Procesando validación para TFC...
+2024-12-19 13:33:19,439 [INFO] Datos extraídos para TFC. Total de filas: 47919
+2024-12-19 13:33:19,447 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:19,447 [WARNING] Datos insuficientes para TFC: 16338 filas disponibles.
+2024-12-19 13:33:19,447 [INFO] Procesando validación para HPQ...
+2024-12-19 13:33:21,253 [INFO] Datos extraídos para HPQ. Total de filas: 46080
+2024-12-19 13:33:21,261 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:21,261 [WARNING] Datos insuficientes para HPQ: 15106 filas disponibles.
+2024-12-19 13:33:21,261 [INFO] Procesando validación para KEY...
+2024-12-19 13:33:23,099 [INFO] Datos extraídos para KEY. Total de filas: 50564
+2024-12-19 13:33:23,120 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:23,121 [WARNING] Datos insuficientes para KEY: 17332 filas disponibles.
+2024-12-19 13:33:23,121 [INFO] Procesando validación para CBOE...
+2024-12-19 13:33:24,920 [INFO] Datos extraídos para CBOE. Total de filas: 40140
+2024-12-19 13:33:24,928 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:24,928 [WARNING] Datos insuficientes para CBOE: 12918 filas disponibles.
+2024-12-19 13:33:24,928 [INFO] Procesando validación para GPN...
+2024-12-19 13:33:26,762 [INFO] Datos extraídos para GPN. Total de filas: 40863
+2024-12-19 13:33:26,770 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:26,770 [WARNING] Datos insuficientes para GPN: 13101 filas disponibles.
+2024-12-19 13:33:26,770 [INFO] Procesando validación para AME...
+2024-12-19 13:33:28,663 [INFO] Datos extraídos para AME. Total de filas: 40109
+2024-12-19 13:33:28,671 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:28,671 [WARNING] Datos insuficientes para AME: 12831 filas disponibles.
+2024-12-19 13:33:28,671 [INFO] Procesando validación para UNP...
+2024-12-19 13:33:30,474 [INFO] Datos extraídos para UNP. Total de filas: 41393
+2024-12-19 13:33:30,481 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:30,482 [WARNING] Datos insuficientes para UNP: 13476 filas disponibles.
+2024-12-19 13:33:30,482 [INFO] Procesando validación para CRWD...
+2024-12-19 13:33:32,321 [INFO] Datos extraídos para CRWD. Total de filas: 58943
+2024-12-19 13:33:32,330 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:32,330 [WARNING] Datos insuficientes para CRWD: 21408 filas disponibles.
+2024-12-19 13:33:32,330 [INFO] Procesando validación para WDC...
+2024-12-19 13:33:34,161 [INFO] Datos extraídos para WDC. Total de filas: 46765
+2024-12-19 13:33:34,170 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:34,170 [WARNING] Datos insuficientes para WDC: 15483 filas disponibles.
+2024-12-19 13:33:34,170 [INFO] Procesando validación para JPM...
+2024-12-19 13:33:36,113 [INFO] Datos extraídos para JPM. Total de filas: 55886
+2024-12-19 13:33:36,134 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:36,134 [WARNING] Datos insuficientes para JPM: 20481 filas disponibles.
+2024-12-19 13:33:36,134 [INFO] Procesando validación para LNT...
+2024-12-19 13:33:37,954 [INFO] Datos extraídos para LNT. Total de filas: 40324
+2024-12-19 13:33:37,962 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:37,963 [WARNING] Datos insuficientes para LNT: 12858 filas disponibles.
+2024-12-19 13:33:37,963 [INFO] Procesando validación para VST...
+2024-12-19 13:33:39,991 [INFO] Datos extraídos para VST. Total de filas: 48068
+2024-12-19 13:33:40,012 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:40,012 [WARNING] Datos insuficientes para VST: 16060 filas disponibles.
+2024-12-19 13:33:40,012 [INFO] Procesando validación para CRL...
+2024-12-19 13:33:41,978 [INFO] Datos extraídos para CRL. Total de filas: 39671
+2024-12-19 13:33:41,986 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:41,986 [WARNING] Datos insuficientes para CRL: 12644 filas disponibles.
+2024-12-19 13:33:41,986 [INFO] Procesando validación para FANG...
+2024-12-19 13:33:43,892 [INFO] Datos extraídos para FANG. Total de filas: 43626
+2024-12-19 13:33:43,900 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:43,900 [WARNING] Datos insuficientes para FANG: 14202 filas disponibles.
+2024-12-19 13:33:43,900 [INFO] Procesando validación para MTD...
+2024-12-19 13:33:45,760 [INFO] Datos extraídos para MTD. Total de filas: 28300
+2024-12-19 13:33:45,767 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:45,767 [WARNING] Datos insuficientes para MTD: 9824 filas disponibles.
+2024-12-19 13:33:45,767 [INFO] Procesando validación para J...
+2024-12-19 13:33:47,695 [INFO] Datos extraídos para J. Total de filas: 39824
+2024-12-19 13:33:47,715 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:47,715 [WARNING] Datos insuficientes para J: 12755 filas disponibles.
+2024-12-19 13:33:47,715 [INFO] Procesando validación para ETN...
+2024-12-19 13:33:49,491 [INFO] Datos extraídos para ETN. Total de filas: 41278
+2024-12-19 13:33:49,498 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:49,498 [WARNING] Datos insuficientes para ETN: 13177 filas disponibles.
+2024-12-19 13:33:49,498 [INFO] Procesando validación para VLO...
+2024-12-19 13:33:51,328 [INFO] Datos extraídos para VLO. Total de filas: 45322
+2024-12-19 13:33:51,335 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:51,335 [WARNING] Datos insuficientes para VLO: 15053 filas disponibles.
+2024-12-19 13:33:51,336 [INFO] Procesando validación para TYL...
+2024-12-19 13:33:53,092 [INFO] Datos extraídos para TYL. Total de filas: 34895
+2024-12-19 13:33:53,100 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:53,100 [WARNING] Datos insuficientes para TYL: 11721 filas disponibles.
+2024-12-19 13:33:53,100 [INFO] Procesando validación para ORCL...
+2024-12-19 13:33:54,893 [INFO] Datos extraídos para ORCL. Total de filas: 54764
+2024-12-19 13:33:54,901 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:54,901 [WARNING] Datos insuficientes para ORCL: 19546 filas disponibles.
+2024-12-19 13:33:54,901 [INFO] Procesando validación para SYK...
+2024-12-19 13:33:56,714 [INFO] Datos extraídos para SYK. Total de filas: 40743
+2024-12-19 13:33:56,723 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:56,723 [WARNING] Datos insuficientes para SYK: 13140 filas disponibles.
+2024-12-19 13:33:56,723 [INFO] Procesando validación para BKNG...
+2024-12-19 13:33:58,453 [INFO] Datos extraídos para BKNG. Total de filas: 36468
+2024-12-19 13:33:58,460 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:33:58,460 [WARNING] Datos insuficientes para BKNG: 11993 filas disponibles.
+2024-12-19 13:33:58,460 [INFO] Procesando validación para IR...
+2024-12-19 13:34:00,435 [INFO] Datos extraídos para IR. Total de filas: 40401
+2024-12-19 13:34:00,443 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:00,444 [WARNING] Datos insuficientes para IR: 12952 filas disponibles.
+2024-12-19 13:34:00,444 [INFO] Procesando validación para SWK...
+2024-12-19 13:34:02,296 [INFO] Datos extraídos para SWK. Total de filas: 41633
+2024-12-19 13:34:02,316 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:02,316 [WARNING] Datos insuficientes para SWK: 13394 filas disponibles.
+2024-12-19 13:34:02,316 [INFO] Procesando validación para CF...
+2024-12-19 13:34:04,134 [INFO] Datos extraídos para CF. Total de filas: 41524
+2024-12-19 13:34:04,142 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:04,142 [WARNING] Datos insuficientes para CF: 13328 filas disponibles.
+2024-12-19 13:34:04,142 [INFO] Procesando validación para AWK...
+2024-12-19 13:34:05,932 [INFO] Datos extraídos para AWK. Total de filas: 40440
+2024-12-19 13:34:05,939 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:05,940 [WARNING] Datos insuficientes para AWK: 12861 filas disponibles.
+2024-12-19 13:34:05,940 [INFO] Procesando validación para ROL...
+2024-12-19 13:34:07,795 [INFO] Datos extraídos para ROL. Total de filas: 40351
+2024-12-19 13:34:07,803 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:07,803 [WARNING] Datos insuficientes para ROL: 12878 filas disponibles.
+2024-12-19 13:34:07,803 [INFO] Procesando validación para CINF...
+2024-12-19 13:34:09,553 [INFO] Datos extraídos para CINF. Total de filas: 39709
+2024-12-19 13:34:09,561 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:09,561 [WARNING] Datos insuficientes para CINF: 12725 filas disponibles.
+2024-12-19 13:34:09,561 [INFO] Procesando validación para KDP...
+2024-12-19 13:34:11,408 [INFO] Datos extraídos para KDP. Total de filas: 43319
+2024-12-19 13:34:11,428 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:11,428 [WARNING] Datos insuficientes para KDP: 13962 filas disponibles.
+2024-12-19 13:34:11,428 [INFO] Procesando validación para ECL...
+2024-12-19 13:34:13,191 [INFO] Datos extraídos para ECL. Total de filas: 40233
+2024-12-19 13:34:13,199 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:13,199 [WARNING] Datos insuficientes para ECL: 12821 filas disponibles.
+2024-12-19 13:34:13,199 [INFO] Procesando validación para KVUE...
+2024-12-19 13:34:14,948 [INFO] Datos extraídos para KVUE. Total de filas: 36547
+2024-12-19 13:34:14,955 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:14,955 [WARNING] Datos insuficientes para KVUE: 11980 filas disponibles.
+2024-12-19 13:34:14,955 [INFO] Procesando validación para LH...
+2024-12-19 13:34:16,702 [INFO] Datos extraídos para LH. Total de filas: 39772
+2024-12-19 13:34:16,721 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:16,722 [WARNING] Datos insuficientes para LH: 12740 filas disponibles.
+2024-12-19 13:34:16,722 [INFO] Procesando validación para JNJ...
+2024-12-19 13:34:18,528 [INFO] Datos extraídos para JNJ. Total de filas: 48680
+2024-12-19 13:34:18,537 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:18,537 [WARNING] Datos insuficientes para JNJ: 17025 filas disponibles.
+2024-12-19 13:34:18,537 [INFO] Procesando validación para FTNT...
+2024-12-19 13:34:20,345 [INFO] Datos extraídos para FTNT. Total de filas: 48944
+2024-12-19 13:34:20,353 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:20,353 [WARNING] Datos insuficientes para FTNT: 16570 filas disponibles.
+2024-12-19 13:34:20,353 [INFO] Procesando validación para EQT...
+2024-12-19 13:34:22,168 [INFO] Datos extraídos para EQT. Total de filas: 46392
+2024-12-19 13:34:22,177 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:22,177 [WARNING] Datos insuficientes para EQT: 14874 filas disponibles.
+2024-12-19 13:34:22,177 [INFO] Procesando validación para DAY...
+2024-12-19 13:34:23,941 [INFO] Datos extraídos para DAY. Total de filas: 40279
+2024-12-19 13:34:23,961 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:23,961 [WARNING] Datos insuficientes para DAY: 12814 filas disponibles.
+2024-12-19 13:34:23,961 [INFO] Procesando validación para MET...
+2024-12-19 13:34:25,912 [INFO] Datos extraídos para MET. Total de filas: 41961
+2024-12-19 13:34:25,920 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:25,920 [WARNING] Datos insuficientes para MET: 13986 filas disponibles.
+2024-12-19 13:34:25,920 [INFO] Procesando validación para CTVA...
+2024-12-19 13:34:27,730 [INFO] Datos extraídos para CTVA. Total de filas: 41014
+2024-12-19 13:34:27,737 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:27,738 [WARNING] Datos insuficientes para CTVA: 13122 filas disponibles.
+2024-12-19 13:34:27,738 [INFO] Procesando validación para URI...
+2024-12-19 13:34:29,502 [INFO] Datos extraídos para URI. Total de filas: 40521
+2024-12-19 13:34:29,523 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:29,523 [WARNING] Datos insuficientes para URI: 13226 filas disponibles.
+2024-12-19 13:34:29,523 [INFO] Procesando validación para MAR...
+2024-12-19 13:34:31,270 [INFO] Datos extraídos para MAR. Total de filas: 42006
+2024-12-19 13:34:31,278 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:31,278 [WARNING] Datos insuficientes para MAR: 13644 filas disponibles.
+2024-12-19 13:34:31,278 [INFO] Procesando validación para UHS...
+2024-12-19 13:34:33,046 [INFO] Datos extraídos para UHS. Total de filas: 39836
+2024-12-19 13:34:33,054 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:33,054 [WARNING] Datos insuficientes para UHS: 12722 filas disponibles.
+2024-12-19 13:34:33,054 [INFO] Procesando validación para VZ...
+2024-12-19 13:34:34,931 [INFO] Datos extraídos para VZ. Total de filas: 63280
+2024-12-19 13:34:34,940 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:34,940 [WARNING] Datos insuficientes para VZ: 24149 filas disponibles.
+2024-12-19 13:34:34,940 [INFO] Procesando validación para DRI...
+2024-12-19 13:34:36,749 [INFO] Datos extraídos para DRI. Total de filas: 40551
+2024-12-19 13:34:36,757 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:36,757 [WARNING] Datos insuficientes para DRI: 13002 filas disponibles.
+2024-12-19 13:34:36,757 [INFO] Procesando validación para CPAY...
+2024-12-19 13:34:38,525 [INFO] Datos extraídos para CPAY. Total de filas: 39229
+2024-12-19 13:34:38,532 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:38,532 [WARNING] Datos insuficientes para CPAY: 12624 filas disponibles.
+2024-12-19 13:34:38,533 [INFO] Procesando validación para AMD...
+2024-12-19 13:34:40,440 [INFO] Datos extraídos para AMD. Total de filas: 91185
+2024-12-19 13:34:40,452 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:40,453 [WARNING] Datos insuficientes para AMD: 34988 filas disponibles.
+2024-12-19 13:34:40,453 [INFO] Procesando validación para NKE...
+2024-12-19 13:34:42,352 [INFO] Datos extraídos para NKE. Total de filas: 59678
+2024-12-19 13:34:42,362 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:42,362 [WARNING] Datos insuficientes para NKE: 21297 filas disponibles.
+2024-12-19 13:34:42,362 [INFO] Procesando validación para WAT...
+2024-12-19 13:34:44,177 [INFO] Datos extraídos para WAT. Total de filas: 38859
+2024-12-19 13:34:44,184 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:44,185 [WARNING] Datos insuficientes para WAT: 12468 filas disponibles.
+2024-12-19 13:34:44,185 [INFO] Procesando validación para WBA...
+2024-12-19 13:34:46,029 [INFO] Datos extraídos para WBA. Total de filas: 61048
+2024-12-19 13:34:46,039 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:46,039 [WARNING] Datos insuficientes para WBA: 23190 filas disponibles.
+2024-12-19 13:34:46,039 [INFO] Procesando validación para XEL...
+2024-12-19 13:34:48,007 [INFO] Datos extraídos para XEL. Total de filas: 41442
+2024-12-19 13:34:48,015 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:48,015 [WARNING] Datos insuficientes para XEL: 13343 filas disponibles.
+2024-12-19 13:34:48,015 [INFO] Procesando validación para PNW...
+2024-12-19 13:34:49,807 [INFO] Datos extraídos para PNW. Total de filas: 40033
+2024-12-19 13:34:49,815 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:49,815 [WARNING] Datos insuficientes para PNW: 12752 filas disponibles.
+2024-12-19 13:34:49,815 [INFO] Procesando validación para IEX...
+2024-12-19 13:34:51,632 [INFO] Datos extraídos para IEX. Total de filas: 38594
+2024-12-19 13:34:51,639 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:51,640 [WARNING] Datos insuficientes para IEX: 12477 filas disponibles.
+2024-12-19 13:34:51,640 [INFO] Procesando validación para VMC...
+2024-12-19 13:34:54,197 [INFO] Datos extraídos para VMC. Total de filas: 40167
+2024-12-19 13:34:54,205 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:54,205 [WARNING] Datos insuficientes para VMC: 12872 filas disponibles.
+2024-12-19 13:34:54,205 [INFO] Procesando validación para DXCM...
+2024-12-19 13:34:56,060 [INFO] Datos extraídos para DXCM. Total de filas: 44031
+2024-12-19 13:34:56,067 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:56,068 [WARNING] Datos insuficientes para DXCM: 14642 filas disponibles.
+2024-12-19 13:34:56,068 [INFO] Procesando validación para K...
+2024-12-19 13:34:57,912 [INFO] Datos extraídos para K. Total de filas: 41733
+2024-12-19 13:34:57,919 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:57,920 [WARNING] Datos insuficientes para K: 13264 filas disponibles.
+2024-12-19 13:34:57,920 [INFO] Procesando validación para BG...
+2024-12-19 13:34:59,733 [INFO] Datos extraídos para BG. Total de filas: 40628
+2024-12-19 13:34:59,752 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:34:59,752 [WARNING] Datos insuficientes para BG: 12986 filas disponibles.
+2024-12-19 13:34:59,752 [INFO] Procesando validación para KMI...
+2024-12-19 13:35:01,657 [INFO] Datos extraídos para KMI. Total de filas: 48627
+2024-12-19 13:35:01,666 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:01,666 [WARNING] Datos insuficientes para KMI: 16314 filas disponibles.
+2024-12-19 13:35:01,666 [INFO] Procesando validación para INTC...
+2024-12-19 13:35:03,649 [INFO] Datos extraídos para INTC. Total de filas: 87637
+2024-12-19 13:35:03,661 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:03,661 [WARNING] Datos insuficientes para INTC: 32928 filas disponibles.
+2024-12-19 13:35:03,661 [INFO] Procesando validación para ROST...
+2024-12-19 13:35:05,754 [INFO] Datos extraídos para ROST. Total de filas: 41908
+2024-12-19 13:35:05,764 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:05,764 [WARNING] Datos insuficientes para ROST: 13746 filas disponibles.
+2024-12-19 13:35:05,764 [INFO] Procesando validación para APH...
+2024-12-19 13:35:07,874 [INFO] Datos extraídos para APH. Total de filas: 41800
+2024-12-19 13:35:07,894 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:07,895 [WARNING] Datos insuficientes para APH: 13196 filas disponibles.
+2024-12-19 13:35:07,895 [INFO] Procesando validación para A...
+2024-12-19 13:35:11,131 [INFO] Datos extraídos para A. Total de filas: 41022
+2024-12-19 13:35:11,139 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:11,139 [WARNING] Datos insuficientes para A: 13318 filas disponibles.
+2024-12-19 13:35:11,140 [INFO] Procesando validación para HAS...
+2024-12-19 13:35:14,764 [INFO] Datos extraídos para HAS. Total de filas: 41494
+2024-12-19 13:35:14,773 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:14,773 [WARNING] Datos insuficientes para HAS: 13315 filas disponibles.
+2024-12-19 13:35:14,773 [INFO] Procesando validación para FMC...
+2024-12-19 13:35:17,801 [INFO] Datos extraídos para FMC. Total de filas: 41008
+2024-12-19 13:35:17,809 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:17,809 [WARNING] Datos insuficientes para FMC: 13129 filas disponibles.
+2024-12-19 13:35:17,809 [INFO] Procesando validación para ISRG...
+2024-12-19 13:35:21,016 [INFO] Datos extraídos para ISRG. Total de filas: 42870
+2024-12-19 13:35:21,024 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:21,024 [WARNING] Datos insuficientes para ISRG: 14309 filas disponibles.
+2024-12-19 13:35:21,024 [INFO] Procesando validación para DVA...
+2024-12-19 13:35:23,915 [INFO] Datos extraídos para DVA. Total de filas: 40363
+2024-12-19 13:35:23,935 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:23,935 [WARNING] Datos insuficientes para DVA: 12875 filas disponibles.
+2024-12-19 13:35:23,935 [INFO] Procesando validación para WBD...
+2024-12-19 13:35:26,670 [INFO] Datos extraídos para WBD. Total de filas: 60935
+2024-12-19 13:35:26,679 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:26,679 [WARNING] Datos insuficientes para WBD: 22855 filas disponibles.
+2024-12-19 13:35:26,679 [INFO] Procesando validación para PTC...
+2024-12-19 13:35:29,236 [INFO] Datos extraídos para PTC. Total de filas: 40031
+2024-12-19 13:35:29,244 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:29,244 [WARNING] Datos insuficientes para PTC: 12799 filas disponibles.
+2024-12-19 13:35:29,244 [INFO] Procesando validación para META...
+2024-12-19 13:35:31,744 [INFO] Datos extraídos para META. Total de filas: 80650
+2024-12-19 13:35:31,755 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:31,755 [WARNING] Datos insuficientes para META: 30945 filas disponibles.
+2024-12-19 13:35:31,755 [INFO] Procesando validación para ACGL...
+2024-12-19 13:35:34,040 [INFO] Datos extraídos para ACGL. Total de filas: 40718
+2024-12-19 13:35:34,049 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:34,049 [WARNING] Datos insuficientes para ACGL: 13069 filas disponibles.
+2024-12-19 13:35:34,049 [INFO] Procesando validación para SBUX...
+2024-12-19 13:35:36,271 [INFO] Datos extraídos para SBUX. Total de filas: 55030
+2024-12-19 13:35:36,279 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:36,279 [WARNING] Datos insuficientes para SBUX: 20120 filas disponibles.
+2024-12-19 13:35:36,279 [INFO] Procesando validación para KKR...
+2024-12-19 13:35:38,411 [INFO] Datos extraídos para KKR. Total de filas: 41682
+2024-12-19 13:35:38,419 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:38,420 [WARNING] Datos insuficientes para KKR: 13603 filas disponibles.
+2024-12-19 13:35:38,420 [INFO] Procesando validación para IVZ...
+2024-12-19 13:35:40,425 [INFO] Datos extraídos para IVZ. Total de filas: 41020
+2024-12-19 13:35:40,432 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:40,432 [WARNING] Datos insuficientes para IVZ: 13039 filas disponibles.
+2024-12-19 13:35:40,433 [INFO] Procesando validación para DECK...
+2024-12-19 13:35:42,412 [INFO] Datos extraídos para DECK. Total de filas: 39860
+2024-12-19 13:35:42,420 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:42,420 [WARNING] Datos insuficientes para DECK: 12983 filas disponibles.
+2024-12-19 13:35:42,421 [INFO] Procesando validación para KR...
+2024-12-19 13:35:44,388 [INFO] Datos extraídos para KR. Total de filas: 43674
+2024-12-19 13:35:44,396 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:44,396 [WARNING] Datos insuficientes para KR: 14496 filas disponibles.
+2024-12-19 13:35:44,396 [INFO] Procesando validación para TDG...
+2024-12-19 13:35:46,312 [INFO] Datos extraídos para TDG. Total de filas: 35516
+2024-12-19 13:35:46,320 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:46,320 [WARNING] Datos insuficientes para TDG: 11840 filas disponibles.
+2024-12-19 13:35:46,320 [INFO] Procesando validación para MAA...
+2024-12-19 13:35:48,055 [INFO] Datos extraídos para MAA. Total de filas: 39854
+2024-12-19 13:35:48,075 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:48,076 [WARNING] Datos insuficientes para MAA: 12699 filas disponibles.
+2024-12-19 13:35:48,076 [INFO] Procesando validación para UDR...
+2024-12-19 13:35:49,707 [INFO] Datos extraídos para UDR. Total de filas: 40239
+2024-12-19 13:35:49,715 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:49,715 [WARNING] Datos insuficientes para UDR: 12797 filas disponibles.
+2024-12-19 13:35:49,716 [INFO] Procesando validación para LEN...
+2024-12-19 13:35:51,391 [INFO] Datos extraídos para LEN. Total de filas: 43081
+2024-12-19 13:35:51,399 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:51,400 [WARNING] Datos insuficientes para LEN: 14075 filas disponibles.
+2024-12-19 13:35:51,400 [INFO] Procesando validación para AIG...
+2024-12-19 13:35:53,115 [INFO] Datos extraídos para AIG. Total de filas: 41846
+2024-12-19 13:35:53,123 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:53,123 [WARNING] Datos insuficientes para AIG: 13833 filas disponibles.
+2024-12-19 13:35:53,123 [INFO] Procesando validación para REG...
+2024-12-19 13:35:54,526 [INFO] Datos extraídos para REG. Total de filas: 39989
+2024-12-19 13:35:54,534 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:54,534 [WARNING] Datos insuficientes para REG: 12726 filas disponibles.
+2024-12-19 13:35:54,534 [INFO] Procesando validación para WTW...
+2024-12-19 13:35:56,338 [INFO] Datos extraídos para WTW. Total de filas: 39431
+2024-12-19 13:35:56,346 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:56,346 [WARNING] Datos insuficientes para WTW: 12669 filas disponibles.
+2024-12-19 13:35:56,346 [INFO] Procesando validación para IQV...
+2024-12-19 13:35:58,197 [INFO] Datos extraídos para IQV. Total de filas: 40214
+2024-12-19 13:35:58,204 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:35:58,205 [WARNING] Datos insuficientes para IQV: 12843 filas disponibles.
+2024-12-19 13:35:58,205 [INFO] Procesando validación para OKE...
+2024-12-19 13:36:00,023 [INFO] Datos extraídos para OKE. Total de filas: 42465
+2024-12-19 13:36:00,030 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:00,031 [WARNING] Datos insuficientes para OKE: 13650 filas disponibles.
+2024-12-19 13:36:00,031 [INFO] Procesando validación para IPG...
+2024-12-19 13:36:01,925 [INFO] Datos extraídos para IPG. Total de filas: 40850
+2024-12-19 13:36:01,933 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:01,933 [WARNING] Datos insuficientes para IPG: 13010 filas disponibles.
+2024-12-19 13:36:01,933 [INFO] Procesando validación para BSX...
+2024-12-19 13:36:03,720 [INFO] Datos extraídos para BSX. Total de filas: 42481
+2024-12-19 13:36:03,741 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:03,741 [WARNING] Datos insuficientes para BSX: 13789 filas disponibles.
+2024-12-19 13:36:03,742 [INFO] Procesando validación para RJF...
+2024-12-19 13:36:05,571 [INFO] Datos extraídos para RJF. Total de filas: 40059
+2024-12-19 13:36:05,579 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:05,579 [WARNING] Datos insuficientes para RJF: 12805 filas disponibles.
+2024-12-19 13:36:05,579 [INFO] Procesando validación para MOH...
+2024-12-19 13:36:07,462 [INFO] Datos extraídos para MOH. Total de filas: 38973
+2024-12-19 13:36:07,469 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:07,469 [WARNING] Datos insuficientes para MOH: 12631 filas disponibles.
+2024-12-19 13:36:07,469 [INFO] Procesando validación para FITB...
+2024-12-19 13:36:09,309 [INFO] Datos extraídos para FITB. Total de filas: 44135
+2024-12-19 13:36:09,317 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:09,317 [WARNING] Datos insuficientes para FITB: 14530 filas disponibles.
+2024-12-19 13:36:09,317 [INFO] Procesando validación para ITW...
+2024-12-19 13:36:11,229 [INFO] Datos extraídos para ITW. Total de filas: 40287
+2024-12-19 13:36:11,237 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:11,237 [WARNING] Datos insuficientes para ITW: 12927 filas disponibles.
+2024-12-19 13:36:11,237 [INFO] Procesando validación para GNRC...
+2024-12-19 13:36:13,210 [INFO] Datos extraídos para GNRC. Total de filas: 42588
+2024-12-19 13:36:13,218 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:13,218 [WARNING] Datos insuficientes para GNRC: 13789 filas disponibles.
+2024-12-19 13:36:13,218 [INFO] Procesando validación para WY...
+2024-12-19 13:36:15,031 [INFO] Datos extraídos para WY. Total de filas: 41677
+2024-12-19 13:36:15,051 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:15,051 [WARNING] Datos insuficientes para WY: 13137 filas disponibles.
+2024-12-19 13:36:15,051 [INFO] Procesando validación para EW...
+2024-12-19 13:36:16,919 [INFO] Datos extraídos para EW. Total de filas: 41865
+2024-12-19 13:36:16,926 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:16,926 [WARNING] Datos insuficientes para EW: 13522 filas disponibles.
+2024-12-19 13:36:16,927 [INFO] Procesando validación para PFG...
+2024-12-19 13:36:18,792 [INFO] Datos extraídos para PFG. Total de filas: 40240
+2024-12-19 13:36:18,799 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:18,799 [WARNING] Datos insuficientes para PFG: 12851 filas disponibles.
+2024-12-19 13:36:18,800 [INFO] Procesando validación para STZ...
+2024-12-19 13:36:20,661 [INFO] Datos extraídos para STZ. Total de filas: 41028
+2024-12-19 13:36:20,668 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:20,669 [WARNING] Datos insuficientes para STZ: 13371 filas disponibles.
+2024-12-19 13:36:20,669 [INFO] Procesando validación para ANET...
+2024-12-19 13:36:22,484 [INFO] Datos extraídos para ANET. Total de filas: 47206
+2024-12-19 13:36:22,492 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:22,492 [WARNING] Datos insuficientes para ANET: 15701 filas disponibles.
+2024-12-19 13:36:22,492 [INFO] Procesando validación para LVS...
+2024-12-19 13:36:24,378 [INFO] Datos extraídos para LVS. Total de filas: 46904
+2024-12-19 13:36:24,387 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:24,387 [WARNING] Datos insuficientes para LVS: 15377 filas disponibles.
+2024-12-19 13:36:24,387 [INFO] Procesando validación para CSCO...
+2024-12-19 13:36:26,314 [INFO] Datos extraídos para CSCO. Total de filas: 57104
+2024-12-19 13:36:26,323 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:26,323 [WARNING] Datos insuficientes para CSCO: 20493 filas disponibles.
+2024-12-19 13:36:26,324 [INFO] Procesando validación para ALLE...
+2024-12-19 13:36:28,174 [INFO] Datos extraídos para ALLE. Total de filas: 39806
+2024-12-19 13:36:28,182 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:28,182 [WARNING] Datos insuficientes para ALLE: 12707 filas disponibles.
+2024-12-19 13:36:28,182 [INFO] Procesando validación para KMB...
+2024-12-19 13:36:30,124 [INFO] Datos extraídos para KMB. Total de filas: 41012
+2024-12-19 13:36:30,132 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:30,132 [WARNING] Datos insuficientes para KMB: 13220 filas disponibles.
+2024-12-19 13:36:30,132 [INFO] Procesando validación para EIX...
+2024-12-19 13:36:32,136 [INFO] Datos extraídos para EIX. Total de filas: 40370
+2024-12-19 13:36:32,144 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:32,144 [WARNING] Datos insuficientes para EIX: 12958 filas disponibles.
+2024-12-19 13:36:32,144 [INFO] Procesando validación para PWR...
+2024-12-19 13:36:34,096 [INFO] Datos extraídos para PWR. Total de filas: 40458
+2024-12-19 13:36:34,104 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:34,104 [WARNING] Datos insuficientes para PWR: 12907 filas disponibles.
+2024-12-19 13:36:34,104 [INFO] Procesando validación para EG...
+2024-12-19 13:36:35,995 [INFO] Datos extraídos para EG. Total de filas: 37737
+2024-12-19 13:36:36,003 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:36,003 [WARNING] Datos insuficientes para EG: 12270 filas disponibles.
+2024-12-19 13:36:36,003 [INFO] Procesando validación para BALL...
+2024-12-19 13:36:38,120 [INFO] Datos extraídos para BALL. Total de filas: 40382
+2024-12-19 13:36:38,128 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:38,128 [WARNING] Datos insuficientes para BALL: 12876 filas disponibles.
+2024-12-19 13:36:38,128 [INFO] Procesando validación para HSY...
+2024-12-19 13:36:39,726 [INFO] Datos extraídos para HSY. Total de filas: 41527
+2024-12-19 13:36:39,734 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:39,734 [WARNING] Datos insuficientes para HSY: 13356 filas disponibles.
+2024-12-19 13:36:39,734 [INFO] Procesando validación para ADSK...
+2024-12-19 13:36:41,563 [INFO] Datos extraídos para ADSK. Total de filas: 42209
+2024-12-19 13:36:41,571 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:41,572 [WARNING] Datos insuficientes para ADSK: 13860 filas disponibles.
+2024-12-19 13:36:41,572 [INFO] Procesando validación para TT...
+2024-12-19 13:36:43,455 [INFO] Datos extraídos para TT. Total de filas: 40268
+2024-12-19 13:36:43,463 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:43,463 [WARNING] Datos insuficientes para TT: 12867 filas disponibles.
+2024-12-19 13:36:43,463 [INFO] Procesando validación para HD...
+2024-12-19 13:36:45,285 [INFO] Datos extraídos para HD. Total de filas: 46311
+2024-12-19 13:36:45,294 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:45,294 [WARNING] Datos insuficientes para HD: 15687 filas disponibles.
+2024-12-19 13:36:45,294 [INFO] Procesando validación para NDAQ...
+2024-12-19 13:36:47,144 [INFO] Datos extraídos para NDAQ. Total de filas: 42885
+2024-12-19 13:36:47,152 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:47,153 [WARNING] Datos insuficientes para NDAQ: 13838 filas disponibles.
+2024-12-19 13:36:47,153 [INFO] Procesando validación para MCHP...
+2024-12-19 13:36:49,024 [INFO] Datos extraídos para MCHP. Total de filas: 45562
+2024-12-19 13:36:49,032 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:49,032 [WARNING] Datos insuficientes para MCHP: 15236 filas disponibles.
+2024-12-19 13:36:49,032 [INFO] Procesando validación para MU...
+2024-12-19 13:36:51,011 [INFO] Datos extraídos para MU. Total de filas: 74452
+2024-12-19 13:36:51,021 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:51,021 [WARNING] Datos insuficientes para MU: 27510 filas disponibles.
+2024-12-19 13:36:51,021 [INFO] Procesando validación para RCL...
+2024-12-19 13:36:52,930 [INFO] Datos extraídos para RCL. Total de filas: 47877
+2024-12-19 13:36:52,939 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:52,939 [WARNING] Datos insuficientes para RCL: 15983 filas disponibles.
+2024-12-19 13:36:52,939 [INFO] Procesando validación para CAG...
+2024-12-19 13:36:54,799 [INFO] Datos extraídos para CAG. Total de filas: 42387
+2024-12-19 13:36:54,807 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:54,807 [WARNING] Datos insuficientes para CAG: 13663 filas disponibles.
+2024-12-19 13:36:54,807 [INFO] Procesando validación para ADBE...
+2024-12-19 13:36:56,649 [INFO] Datos extraídos para ADBE. Total de filas: 49208
+2024-12-19 13:36:56,657 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:56,657 [WARNING] Datos insuficientes para ADBE: 17049 filas disponibles.
+2024-12-19 13:36:56,657 [INFO] Procesando validación para QCOM...
+2024-12-19 13:36:58,470 [INFO] Datos extraídos para QCOM. Total de filas: 60813
+2024-12-19 13:36:58,480 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:36:58,480 [WARNING] Datos insuficientes para QCOM: 21094 filas disponibles.
+2024-12-19 13:36:58,480 [INFO] Procesando validación para OMC...
+2024-12-19 13:37:00,416 [INFO] Datos extraídos para OMC. Total de filas: 40456
+2024-12-19 13:37:00,424 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:00,424 [WARNING] Datos insuficientes para OMC: 12894 filas disponibles.
+2024-12-19 13:37:00,424 [INFO] Procesando validación para AMTM...
+2024-12-19 13:37:02,274 [INFO] Datos extraídos para AMTM. Total de filas: 4868
+2024-12-19 13:37:02,280 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:02,281 [WARNING] Rango de fechas insuficiente para AMTM: 2024-09-30 09:00:00-04:00 a 2024-12-18 14:50:00-05:00
+2024-12-19 13:37:02,281 [INFO] Procesando validación para SYF...
+2024-12-19 13:37:04,115 [INFO] Datos extraídos para SYF. Total de filas: 41983
+2024-12-19 13:37:04,123 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:04,123 [WARNING] Datos insuficientes para SYF: 13393 filas disponibles.
+2024-12-19 13:37:04,123 [INFO] Procesando validación para FDS...
+2024-12-19 13:37:06,008 [INFO] Datos extraídos para FDS. Total de filas: 35799
+2024-12-19 13:37:06,016 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:06,016 [WARNING] Datos insuficientes para FDS: 11927 filas disponibles.
+2024-12-19 13:37:06,016 [INFO] Procesando validación para UAL...
+2024-12-19 13:37:07,976 [INFO] Datos extraídos para UAL. Total de filas: 59138
+2024-12-19 13:37:07,985 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:07,986 [WARNING] Datos insuficientes para UAL: 21900 filas disponibles.
+2024-12-19 13:37:07,986 [INFO] Procesando validación para CAT...
+2024-12-19 13:37:09,865 [INFO] Datos extraídos para CAT. Total de filas: 46621
+2024-12-19 13:37:09,873 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:09,873 [WARNING] Datos insuficientes para CAT: 15335 filas disponibles.
+2024-12-19 13:37:09,874 [INFO] Procesando validación para DVN...
+2024-12-19 13:37:11,828 [INFO] Datos extraídos para DVN. Total de filas: 59044
+2024-12-19 13:37:11,837 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:11,837 [WARNING] Datos insuficientes para DVN: 21665 filas disponibles.
+2024-12-19 13:37:11,837 [INFO] Procesando validación para FCX...
+2024-12-19 13:37:13,722 [INFO] Datos extraídos para FCX. Total de filas: 57727
+2024-12-19 13:37:13,731 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:13,731 [WARNING] Datos insuficientes para FCX: 18843 filas disponibles.
+2024-12-19 13:37:13,732 [INFO] Procesando validación para NVDA...
+2024-12-19 13:37:15,903 [INFO] Datos extraídos para NVDA. Total de filas: 93871
+2024-12-19 13:37:15,915 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:15,915 [WARNING] Datos insuficientes para NVDA: 35326 filas disponibles.
+2024-12-19 13:37:15,915 [INFO] Procesando validación para WM...
+2024-12-19 13:37:18,041 [INFO] Datos extraídos para WM. Total de filas: 41162
+2024-12-19 13:37:18,049 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:18,049 [WARNING] Datos insuficientes para WM: 13272 filas disponibles.
+2024-12-19 13:37:18,050 [INFO] Procesando validación para LULU...
+2024-12-19 13:37:19,872 [INFO] Datos extraídos para LULU. Total de filas: 46328
+2024-12-19 13:37:19,880 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:19,880 [WARNING] Datos insuficientes para LULU: 15846 filas disponibles.
+2024-12-19 13:37:19,881 [INFO] Procesando validación para GS...
+2024-12-19 13:37:21,792 [INFO] Datos extraídos para GS. Total de filas: 46278
+2024-12-19 13:37:21,801 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:21,801 [WARNING] Datos insuficientes para GS: 15936 filas disponibles.
+2024-12-19 13:37:21,801 [INFO] Procesando validación para IP...
+2024-12-19 13:37:23,647 [INFO] Datos extraídos para IP. Total de filas: 43197
+2024-12-19 13:37:23,655 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:23,656 [WARNING] Datos insuficientes para IP: 13471 filas disponibles.
+2024-12-19 13:37:23,656 [INFO] Procesando validación para MKTX...
+2024-12-19 13:37:25,690 [INFO] Datos extraídos para MKTX. Total de filas: 38333
+2024-12-19 13:37:25,697 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:25,698 [WARNING] Datos insuficientes para MKTX: 12405 filas disponibles.
+2024-12-19 13:37:25,698 [INFO] Procesando validación para SNA...
+2024-12-19 13:37:27,636 [INFO] Datos extraídos para SNA. Total de filas: 37335
+2024-12-19 13:37:27,644 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:27,644 [WARNING] Datos insuficientes para SNA: 12207 filas disponibles.
+2024-12-19 13:37:27,644 [INFO] Procesando validación para CB...
+2024-12-19 13:37:29,838 [INFO] Datos extraídos para CB. Total de filas: 40947
+2024-12-19 13:37:29,846 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:29,846 [WARNING] Datos insuficientes para CB: 13231 filas disponibles.
+2024-12-19 13:37:29,846 [INFO] Procesando validación para FE...
+2024-12-19 13:37:31,867 [INFO] Datos extraídos para FE. Total de filas: 40699
+2024-12-19 13:37:31,875 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:31,875 [WARNING] Datos insuficientes para FE: 13012 filas disponibles.
+2024-12-19 13:37:31,875 [INFO] Procesando validación para WELL...
+2024-12-19 13:37:33,899 [INFO] Datos extraídos para WELL. Total de filas: 40759
+2024-12-19 13:37:33,907 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:33,907 [WARNING] Datos insuficientes para WELL: 13053 filas disponibles.
+2024-12-19 13:37:33,907 [INFO] Procesando validación para PEG...
+2024-12-19 13:37:35,926 [INFO] Datos extraídos para PEG. Total de filas: 40455
+2024-12-19 13:37:35,934 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:35,934 [WARNING] Datos insuficientes para PEG: 12978 filas disponibles.
+2024-12-19 13:37:35,934 [INFO] Procesando validación para JKHY...
+2024-12-19 13:37:37,931 [INFO] Datos extraídos para JKHY. Total de filas: 39358
+2024-12-19 13:37:37,939 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:37,939 [WARNING] Datos insuficientes para JKHY: 12694 filas disponibles.
+2024-12-19 13:37:37,940 [INFO] Procesando validación para FAST...
+2024-12-19 13:37:39,922 [INFO] Datos extraídos para FAST. Total de filas: 41609
+2024-12-19 13:37:39,930 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:39,930 [WARNING] Datos insuficientes para FAST: 13350 filas disponibles.
+2024-12-19 13:37:39,930 [INFO] Procesando validación para DAL...
+2024-12-19 13:37:42,012 [INFO] Datos extraídos para DAL. Total de filas: 61096
+2024-12-19 13:37:42,022 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:42,022 [WARNING] Datos insuficientes para DAL: 22465 filas disponibles.
+2024-12-19 13:37:42,022 [INFO] Procesando validación para ZBH...
+2024-12-19 13:37:43,989 [INFO] Datos extraídos para ZBH. Total de filas: 40536
+2024-12-19 13:37:43,997 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:43,997 [WARNING] Datos insuficientes para ZBH: 12997 filas disponibles.
+2024-12-19 13:37:43,997 [INFO] Procesando validación para CHRW...
+2024-12-19 13:37:45,987 [INFO] Datos extraídos para CHRW. Total de filas: 40421
+2024-12-19 13:37:45,995 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:45,995 [WARNING] Datos insuficientes para CHRW: 12910 filas disponibles.
+2024-12-19 13:37:45,995 [INFO] Procesando validación para APD...
+2024-12-19 13:37:48,013 [INFO] Datos extraídos para APD. Total de filas: 40631
+2024-12-19 13:37:48,032 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:48,033 [WARNING] Datos insuficientes para APD: 13069 filas disponibles.
+2024-12-19 13:37:48,033 [INFO] Procesando validación para EPAM...
+2024-12-19 13:37:50,233 [INFO] Datos extraídos para EPAM. Total de filas: 39636
+2024-12-19 13:37:50,241 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:50,242 [WARNING] Datos insuficientes para EPAM: 12744 filas disponibles.
+2024-12-19 13:37:50,242 [INFO] Procesando validación para NDSN...
+2024-12-19 13:37:52,303 [INFO] Datos extraídos para NDSN. Total de filas: 35113
+2024-12-19 13:37:52,311 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:52,312 [WARNING] Datos insuficientes para NDSN: 11757 filas disponibles.
+2024-12-19 13:37:52,312 [INFO] Procesando validación para VRSK...
+2024-12-19 13:37:54,304 [INFO] Datos extraídos para VRSK. Total de filas: 40280
+2024-12-19 13:37:54,312 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:54,312 [WARNING] Datos insuficientes para VRSK: 12967 filas disponibles.
+2024-12-19 13:37:54,312 [INFO] Procesando validación para BKR...
+2024-12-19 13:37:56,350 [INFO] Datos extraídos para BKR. Total de filas: 44286
+2024-12-19 13:37:56,358 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:56,358 [WARNING] Datos insuficientes para BKR: 14299 filas disponibles.
+2024-12-19 13:37:56,358 [INFO] Procesando validación para ALB...
+2024-12-19 13:37:58,327 [INFO] Datos extraídos para ALB. Total de filas: 49266
+2024-12-19 13:37:58,335 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:37:58,336 [WARNING] Datos insuficientes para ALB: 15695 filas disponibles.
+2024-12-19 13:37:58,336 [INFO] Procesando validación para OXY...
+2024-12-19 13:38:00,363 [INFO] Datos extraídos para OXY. Total de filas: 72910
+2024-12-19 13:38:00,373 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:00,374 [WARNING] Datos insuficientes para OXY: 26530 filas disponibles.
+2024-12-19 13:38:00,374 [INFO] Procesando validación para CAH...
+2024-12-19 13:38:02,441 [INFO] Datos extraídos para CAH. Total de filas: 40916
+2024-12-19 13:38:02,449 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:02,450 [WARNING] Datos insuficientes para CAH: 13251 filas disponibles.
+2024-12-19 13:38:02,450 [INFO] Procesando validación para CDW...
+2024-12-19 13:38:04,419 [INFO] Datos extraídos para CDW. Total de filas: 40252
+2024-12-19 13:38:04,427 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:04,427 [WARNING] Datos insuficientes para CDW: 12925 filas disponibles.
+2024-12-19 13:38:04,427 [INFO] Procesando validación para VTRS...
+2024-12-19 13:38:06,415 [INFO] Datos extraídos para VTRS. Total de filas: 43105
+2024-12-19 13:38:06,423 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:06,423 [WARNING] Datos insuficientes para VTRS: 13920 filas disponibles.
+2024-12-19 13:38:06,423 [INFO] Procesando validación para OTIS...
+2024-12-19 13:38:08,462 [INFO] Datos extraídos para OTIS. Total de filas: 40425
+2024-12-19 13:38:08,470 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:08,470 [WARNING] Datos insuficientes para OTIS: 12980 filas disponibles.
+2024-12-19 13:38:08,470 [INFO] Procesando validación para ETR...
+2024-12-19 13:38:10,502 [INFO] Datos extraídos para ETR. Total de filas: 40238
+2024-12-19 13:38:10,510 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:10,510 [WARNING] Datos insuficientes para ETR: 12839 filas disponibles.
+2024-12-19 13:38:10,510 [INFO] Procesando validación para DOW...
+2024-12-19 13:38:12,594 [INFO] Datos extraídos para DOW. Total de filas: 44873
+2024-12-19 13:38:12,602 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:12,602 [WARNING] Datos insuficientes para DOW: 14867 filas disponibles.
+2024-12-19 13:38:12,602 [INFO] Procesando validación para TJX...
+2024-12-19 13:38:14,653 [INFO] Datos extraídos para TJX. Total de filas: 43138
+2024-12-19 13:38:14,661 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:14,661 [WARNING] Datos insuficientes para TJX: 14113 filas disponibles.
+2024-12-19 13:38:14,661 [INFO] Procesando validación para TXT...
+2024-12-19 13:38:16,696 [INFO] Datos extraídos para TXT. Total de filas: 40492
+2024-12-19 13:38:16,704 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:16,704 [WARNING] Datos insuficientes para TXT: 12938 filas disponibles.
+2024-12-19 13:38:16,704 [INFO] Procesando validación para MRNA...
+2024-12-19 13:38:18,759 [INFO] Datos extraídos para MRNA. Total de filas: 56513
+2024-12-19 13:38:18,768 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:18,768 [WARNING] Datos insuficientes para MRNA: 19955 filas disponibles.
+2024-12-19 13:38:18,768 [INFO] Procesando validación para AAPL...
+2024-12-19 13:38:20,917 [INFO] Datos extraídos para AAPL. Total de filas: 92310
+2024-12-19 13:38:20,929 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:20,929 [WARNING] Datos insuficientes para AAPL: 34768 filas disponibles.
+2024-12-19 13:38:20,929 [INFO] Procesando validación para CPRT...
+2024-12-19 13:38:23,000 [INFO] Datos extraídos para CPRT. Total de filas: 42569
+2024-12-19 13:38:23,009 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:23,009 [WARNING] Datos insuficientes para CPRT: 13900 filas disponibles.
+2024-12-19 13:38:23,010 [INFO] Procesando validación para LHX...
+2024-12-19 13:38:25,014 [INFO] Datos extraídos para LHX. Total de filas: 40549
+2024-12-19 13:38:25,022 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:25,022 [WARNING] Datos insuficientes para LHX: 13013 filas disponibles.
+2024-12-19 13:38:25,023 [INFO] Procesando validación para LIN...
+2024-12-19 13:38:26,990 [INFO] Datos extraídos para LIN. Total de filas: 43635
+2024-12-19 13:38:27,010 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:27,010 [WARNING] Datos insuficientes para LIN: 13726 filas disponibles.
+2024-12-19 13:38:27,010 [INFO] Procesando validación para SRE...
+2024-12-19 13:38:28,965 [INFO] Datos extraídos para SRE. Total de filas: 40522
+2024-12-19 13:38:28,973 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:28,973 [WARNING] Datos insuficientes para SRE: 13058 filas disponibles.
+2024-12-19 13:38:28,973 [INFO] Procesando validación para ERIE...
+2024-12-19 13:38:30,851 [INFO] Datos extraídos para ERIE. Total de filas: 24730
+2024-12-19 13:38:30,859 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:30,859 [WARNING] Datos insuficientes para ERIE: 9153 filas disponibles.
+2024-12-19 13:38:30,859 [INFO] Procesando validación para AOS...
+2024-12-19 13:38:32,872 [INFO] Datos extraídos para AOS. Total de filas: 40165
+2024-12-19 13:38:32,879 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:32,879 [WARNING] Datos insuficientes para AOS: 12773 filas disponibles.
+2024-12-19 13:38:32,879 [INFO] Procesando validación para ADP...
+2024-12-19 13:38:34,878 [INFO] Datos extraídos para ADP. Total de filas: 41178
+2024-12-19 13:38:34,898 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:34,898 [WARNING] Datos insuficientes para ADP: 13440 filas disponibles.
+2024-12-19 13:38:34,899 [INFO] Procesando validación para EOG...
+2024-12-19 13:38:36,884 [INFO] Datos extraídos para EOG. Total de filas: 43119
+2024-12-19 13:38:36,892 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:36,892 [WARNING] Datos insuficientes para EOG: 14161 filas disponibles.
+2024-12-19 13:38:36,892 [INFO] Procesando validación para AEE...
+2024-12-19 13:38:38,847 [INFO] Datos extraídos para AEE. Total de filas: 40055
+2024-12-19 13:38:38,854 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:38,855 [WARNING] Datos insuficientes para AEE: 12768 filas disponibles.
+2024-12-19 13:38:38,855 [INFO] Procesando validación para JCI...
+2024-12-19 13:38:40,907 [INFO] Datos extraídos para JCI. Total de filas: 41243
+2024-12-19 13:38:40,915 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:40,915 [WARNING] Datos insuficientes para JCI: 13306 filas disponibles.
+2024-12-19 13:38:40,915 [INFO] Procesando validación para SO...
+2024-12-19 13:38:42,929 [INFO] Datos extraídos para SO. Total de filas: 42209
+2024-12-19 13:38:42,937 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:42,937 [WARNING] Datos insuficientes para SO: 13544 filas disponibles.
+2024-12-19 13:38:42,937 [INFO] Procesando validación para MO...
+2024-12-19 13:38:44,982 [INFO] Datos extraídos para MO. Total de filas: 55040
+2024-12-19 13:38:44,991 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:44,991 [WARNING] Datos insuficientes para MO: 18947 filas disponibles.
+2024-12-19 13:38:44,991 [INFO] Procesando validación para FOX...
+2024-12-19 13:38:47,086 [INFO] Datos extraídos para FOX. Total de filas: 40327
+2024-12-19 13:38:47,094 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:47,094 [WARNING] Datos insuficientes para FOX: 12895 filas disponibles.
+2024-12-19 13:38:47,094 [INFO] Procesando validación para TMO...
+2024-12-19 13:38:49,716 [INFO] Datos extraídos para TMO. Total de filas: 41446
+2024-12-19 13:38:49,724 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:49,724 [WARNING] Datos insuficientes para TMO: 13675 filas disponibles.
+2024-12-19 13:38:49,724 [INFO] Procesando validación para JBHT...
+2024-12-19 13:38:51,798 [INFO] Datos extraídos para JBHT. Total de filas: 40395
+2024-12-19 13:38:51,806 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:51,806 [WARNING] Datos insuficientes para JBHT: 13005 filas disponibles.
+2024-12-19 13:38:51,806 [INFO] Procesando validación para CLX...
+2024-12-19 13:38:53,843 [INFO] Datos extraídos para CLX. Total de filas: 41045
+2024-12-19 13:38:53,863 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:53,863 [WARNING] Datos insuficientes para CLX: 13333 filas disponibles.
+2024-12-19 13:38:53,863 [INFO] Procesando validación para EXPE...
+2024-12-19 13:38:55,858 [INFO] Datos extraídos para EXPE. Total de filas: 44408
+2024-12-19 13:38:55,866 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:55,867 [WARNING] Datos insuficientes para EXPE: 14786 filas disponibles.
+2024-12-19 13:38:55,867 [INFO] Procesando validación para PODD...
+2024-12-19 13:38:57,817 [INFO] Datos extraídos para PODD. Total de filas: 40208
+2024-12-19 13:38:57,824 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:57,825 [WARNING] Datos insuficientes para PODD: 12979 filas disponibles.
+2024-12-19 13:38:57,825 [INFO] Procesando validación para MCO...
+2024-12-19 13:38:59,840 [INFO] Datos extraídos para MCO. Total de filas: 39981
+2024-12-19 13:38:59,848 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:38:59,848 [WARNING] Datos insuficientes para MCO: 12843 filas disponibles.
+2024-12-19 13:38:59,848 [INFO] Procesando validación para TSLA...
+2024-12-19 13:39:02,062 [INFO] Datos extraídos para TSLA. Total de filas: 95846
+2024-12-19 13:39:02,075 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:02,075 [WARNING] Datos insuficientes para TSLA: 35518 filas disponibles.
+2024-12-19 13:39:02,075 [INFO] Procesando validación para HCA...
+2024-12-19 13:39:04,203 [INFO] Datos extraídos para HCA. Total de filas: 40674
+2024-12-19 13:39:04,211 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:04,212 [WARNING] Datos insuficientes para HCA: 13082 filas disponibles.
+2024-12-19 13:39:04,212 [INFO] Procesando validación para IT...
+2024-12-19 13:39:06,288 [INFO] Datos extraídos para IT. Total de filas: 38360
+2024-12-19 13:39:06,295 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:06,295 [WARNING] Datos insuficientes para IT: 12506 filas disponibles.
+2024-12-19 13:39:06,296 [INFO] Procesando validación para EBAY...
+2024-12-19 13:39:08,365 [INFO] Datos extraídos para EBAY. Total de filas: 44763
+2024-12-19 13:39:08,373 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:08,374 [WARNING] Datos insuficientes para EBAY: 14771 filas disponibles.
+2024-12-19 13:39:08,374 [INFO] Procesando validación para EQIX...
+2024-12-19 13:39:10,329 [INFO] Datos extraídos para EQIX. Total de filas: 39071
+2024-12-19 13:39:10,337 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:10,337 [WARNING] Datos insuficientes para EQIX: 12618 filas disponibles.
+2024-12-19 13:39:10,337 [INFO] Procesando validación para NEM...
+2024-12-19 13:39:12,444 [INFO] Datos extraídos para NEM. Total de filas: 60948
+2024-12-19 13:39:12,453 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:12,454 [WARNING] Datos insuficientes para NEM: 20097 filas disponibles.
+2024-12-19 13:39:12,454 [INFO] Procesando validación para WEC...
+2024-12-19 13:39:14,453 [INFO] Datos extraídos para WEC. Total de filas: 40269
+2024-12-19 13:39:14,461 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:14,461 [WARNING] Datos insuficientes para WEC: 12865 filas disponibles.
+2024-12-19 13:39:14,461 [INFO] Procesando validación para DLR...
+2024-12-19 13:39:16,531 [INFO] Datos extraídos para DLR. Total de filas: 41444
+2024-12-19 13:39:16,539 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:16,539 [WARNING] Datos insuficientes para DLR: 13283 filas disponibles.
+2024-12-19 13:39:16,540 [INFO] Procesando validación para NWSA...
+2024-12-19 13:39:18,576 [INFO] Datos extraídos para NWSA. Total de filas: 40536
+2024-12-19 13:39:18,584 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:18,584 [WARNING] Datos insuficientes para NWSA: 12943 filas disponibles.
+2024-12-19 13:39:18,584 [INFO] Procesando validación para MCD...
+2024-12-19 13:39:20,620 [INFO] Datos extraídos para MCD. Total de filas: 46232
+2024-12-19 13:39:20,628 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:20,628 [WARNING] Datos insuficientes para MCD: 15773 filas disponibles.
+2024-12-19 13:39:20,628 [INFO] Procesando validación para TGT...
+2024-12-19 13:39:22,669 [INFO] Datos extraídos para TGT. Total de filas: 50640
+2024-12-19 13:39:22,678 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:22,678 [WARNING] Datos insuficientes para TGT: 17966 filas disponibles.
+2024-12-19 13:39:22,678 [INFO] Procesando validación para STLD...
+2024-12-19 13:39:24,744 [INFO] Datos extraídos para STLD. Total de filas: 41105
+2024-12-19 13:39:24,752 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:24,752 [WARNING] Datos insuficientes para STLD: 13183 filas disponibles.
+2024-12-19 13:39:24,752 [INFO] Procesando validación para CNP...
+2024-12-19 13:39:26,716 [INFO] Datos extraídos para CNP. Total de filas: 40600
+2024-12-19 13:39:26,724 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:26,724 [WARNING] Datos insuficientes para CNP: 12961 filas disponibles.
+2024-12-19 13:39:26,724 [INFO] Procesando validación para ED...
+2024-12-19 13:39:28,783 [INFO] Datos extraídos para ED. Total de filas: 40580
+2024-12-19 13:39:28,790 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:28,790 [WARNING] Datos insuficientes para ED: 13063 filas disponibles.
+2024-12-19 13:39:28,790 [INFO] Procesando validación para SCHW...
+2024-12-19 13:39:30,831 [INFO] Datos extraídos para SCHW. Total de filas: 52510
+2024-12-19 13:39:30,841 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:30,841 [WARNING] Datos insuficientes para SCHW: 18914 filas disponibles.
+2024-12-19 13:39:30,841 [INFO] Procesando validación para PYPL...
+2024-12-19 13:39:32,997 [INFO] Datos extraídos para PYPL. Total de filas: 74847
+2024-12-19 13:39:33,007 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:33,007 [WARNING] Datos insuficientes para PYPL: 27970 filas disponibles.
+2024-12-19 13:39:33,007 [INFO] Procesando validación para MRK...
+2024-12-19 13:39:34,929 [INFO] Datos extraídos para MRK. Total de filas: 47788
+2024-12-19 13:39:34,938 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:34,938 [WARNING] Datos insuficientes para MRK: 16431 filas disponibles.
+2024-12-19 13:39:34,938 [INFO] Procesando validación para TSN...
+2024-12-19 13:39:36,932 [INFO] Datos extraídos para TSN. Total de filas: 42862
+2024-12-19 13:39:36,940 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:36,940 [WARNING] Datos insuficientes para TSN: 14017 filas disponibles.
+2024-12-19 13:39:36,940 [INFO] Procesando validación para MOS...
+2024-12-19 13:39:38,899 [INFO] Datos extraídos para MOS. Total de filas: 44750
+2024-12-19 13:39:38,907 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:38,907 [WARNING] Datos insuficientes para MOS: 14563 filas disponibles.
+2024-12-19 13:39:38,907 [INFO] Procesando validación para ORLY...
+2024-12-19 13:39:40,830 [INFO] Datos extraídos para ORLY. Total de filas: 38542
+2024-12-19 13:39:40,838 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:40,838 [WARNING] Datos insuficientes para ORLY: 12538 filas disponibles.
+2024-12-19 13:39:40,839 [INFO] Procesando validación para GEV...
+2024-12-19 13:39:42,688 [INFO] Datos extraídos para GEV. Total de filas: 17407
+2024-12-19 13:39:42,696 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:42,696 [WARNING] Rango de fechas insuficiente para GEV: 2024-04-02 09:00:00-04:00 a 2024-12-18 14:50:00-05:00
+2024-12-19 13:39:42,696 [INFO] Procesando validación para HWM...
+2024-12-19 13:39:44,599 [INFO] Datos extraídos para HWM. Total de filas: 41216
+2024-12-19 13:39:44,606 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:44,607 [WARNING] Datos insuficientes para HWM: 13223 filas disponibles.
+2024-12-19 13:39:44,607 [INFO] Procesando validación para CTAS...
+2024-12-19 13:39:46,471 [INFO] Datos extraídos para CTAS. Total de filas: 38769
+2024-12-19 13:39:46,479 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:46,479 [WARNING] Datos insuficientes para CTAS: 12567 filas disponibles.
+2024-12-19 13:39:46,479 [INFO] Procesando validación para CL...
+2024-12-19 13:39:48,517 [INFO] Datos extraídos para CL. Total de filas: 42204
+2024-12-19 13:39:48,525 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:48,526 [WARNING] Datos insuficientes para CL: 13517 filas disponibles.
+2024-12-19 13:39:48,526 [INFO] Procesando validación para GE...
+2024-12-19 13:39:50,503 [INFO] Datos extraídos para GE. Total de filas: 50696
+2024-12-19 13:39:50,511 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:50,511 [WARNING] Datos insuficientes para GE: 17319 filas disponibles.
+2024-12-19 13:39:50,512 [INFO] Procesando validación para CI...
+2024-12-19 13:39:52,409 [INFO] Datos extraídos para CI. Total de filas: 41199
+2024-12-19 13:39:52,429 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:52,430 [WARNING] Datos insuficientes para CI: 13293 filas disponibles.
+2024-12-19 13:39:52,430 [INFO] Procesando validación para NTAP...
+2024-12-19 13:39:54,340 [INFO] Datos extraídos para NTAP. Total de filas: 41600
+2024-12-19 13:39:54,348 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:54,348 [WARNING] Datos insuficientes para NTAP: 13525 filas disponibles.
+2024-12-19 13:39:54,348 [INFO] Procesando validación para GEHC...
+2024-12-19 13:39:56,224 [INFO] Datos extraídos para GEHC. Total de filas: 44170
+2024-12-19 13:39:56,232 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:56,232 [WARNING] Datos insuficientes para GEHC: 14603 filas disponibles.
+2024-12-19 13:39:56,232 [INFO] Procesando validación para MGM...
+2024-12-19 13:39:58,402 [INFO] Datos extraídos para MGM. Total de filas: 45882
+2024-12-19 13:39:58,410 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:39:58,410 [WARNING] Datos insuficientes para MGM: 15449 filas disponibles.
+2024-12-19 13:39:58,410 [INFO] Procesando validación para TPR...
+2024-12-19 13:40:00,512 [INFO] Datos extraídos para TPR. Total de filas: 42358
+2024-12-19 13:40:00,520 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:00,521 [WARNING] Datos insuficientes para TPR: 13547 filas disponibles.
+2024-12-19 13:40:00,521 [INFO] Procesando validación para LYV...
+2024-12-19 13:40:02,536 [INFO] Datos extraídos para LYV. Total de filas: 41408
+2024-12-19 13:40:02,556 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:02,557 [WARNING] Datos insuficientes para LYV: 13397 filas disponibles.
+2024-12-19 13:40:02,557 [INFO] Procesando validación para FFIV...
+2024-12-19 13:40:04,476 [INFO] Datos extraídos para FFIV. Total de filas: 39692
+2024-12-19 13:40:04,484 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:04,484 [WARNING] Datos insuficientes para FFIV: 12844 filas disponibles.
+2024-12-19 13:40:04,484 [INFO] Procesando validación para MPWR...
+2024-12-19 13:40:06,462 [INFO] Datos extraídos para MPWR. Total de filas: 39867
+2024-12-19 13:40:06,470 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:06,470 [WARNING] Datos insuficientes para MPWR: 12893 filas disponibles.
+2024-12-19 13:40:06,470 [INFO] Procesando validación para PLTR...
+2024-12-19 13:40:08,549 [INFO] Datos extraídos para PLTR. Total de filas: 93589
+2024-12-19 13:40:08,561 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:08,561 [WARNING] Datos insuficientes para PLTR: 35139 filas disponibles.
+2024-12-19 13:40:08,561 [INFO] Procesando validación para KHC...
+2024-12-19 13:40:10,637 [INFO] Datos extraídos para KHC. Total de filas: 48761
+2024-12-19 13:40:10,646 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:10,646 [WARNING] Datos insuficientes para KHC: 16563 filas disponibles.
+2024-12-19 13:40:10,646 [INFO] Procesando validación para BK...
+2024-12-19 13:40:12,644 [INFO] Datos extraídos para BK. Total de filas: 42065
+2024-12-19 13:40:12,652 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:12,653 [WARNING] Datos insuficientes para BK: 13482 filas disponibles.
+2024-12-19 13:40:12,653 [INFO] Procesando validación para EL...
+2024-12-19 13:40:14,522 [INFO] Datos extraídos para EL. Total de filas: 44745
+2024-12-19 13:40:14,530 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:14,530 [WARNING] Datos insuficientes para EL: 14438 filas disponibles.
+2024-12-19 13:40:14,530 [INFO] Procesando validación para PANW...
+2024-12-19 13:40:16,525 [INFO] Datos extraídos para PANW. Total de filas: 53047
+2024-12-19 13:40:16,534 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:16,534 [WARNING] Datos insuficientes para PANW: 18921 filas disponibles.
+2024-12-19 13:40:16,534 [INFO] Procesando validación para JNPR...
+2024-12-19 13:40:18,476 [INFO] Datos extraídos para JNPR. Total de filas: 42975
+2024-12-19 13:40:18,484 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:18,484 [WARNING] Datos insuficientes para JNPR: 14243 filas disponibles.
+2024-12-19 13:40:18,484 [INFO] Procesando validación para UBER...
+2024-12-19 13:40:20,468 [INFO] Datos extraídos para UBER. Total de filas: 70230
+2024-12-19 13:40:20,490 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:20,490 [WARNING] Datos insuficientes para UBER: 27081 filas disponibles.
+2024-12-19 13:40:20,490 [INFO] Procesando validación para VICI...
+2024-12-19 13:40:22,443 [INFO] Datos extraídos para VICI. Total de filas: 44299
+2024-12-19 13:40:22,452 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:22,452 [WARNING] Datos insuficientes para VICI: 14138 filas disponibles.
+2024-12-19 13:40:22,452 [INFO] Procesando validación para LYB...
+2024-12-19 13:40:24,341 [INFO] Datos extraídos para LYB. Total de filas: 41004
+2024-12-19 13:40:24,349 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:24,349 [WARNING] Datos insuficientes para LYB: 13206 filas disponibles.
+2024-12-19 13:40:24,349 [INFO] Procesando validación para DE...
+2024-12-19 13:40:27,208 [INFO] Datos extraídos para DE. Total de filas: 42786
+2024-12-19 13:40:27,217 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:27,217 [WARNING] Datos insuficientes para DE: 13991 filas disponibles.
+2024-12-19 13:40:27,217 [INFO] Procesando validación para BRK.B...
+2024-12-19 13:40:30,714 [INFO] Datos extraídos para BRK.B. Total de filas: 51366
+2024-12-19 13:40:30,722 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:30,723 [WARNING] Datos insuficientes para BRK.B: 18491 filas disponibles.
+2024-12-19 13:40:30,723 [INFO] Procesando validación para DGX...
+2024-12-19 13:40:33,936 [INFO] Datos extraídos para DGX. Total de filas: 39921
+2024-12-19 13:40:33,958 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:33,958 [WARNING] Datos insuficientes para DGX: 12706 filas disponibles.
+2024-12-19 13:40:33,958 [INFO] Procesando validación para PAYX...
+2024-12-19 13:40:36,858 [INFO] Datos extraídos para PAYX. Total de filas: 41193
+2024-12-19 13:40:36,866 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:36,866 [WARNING] Datos insuficientes para PAYX: 13377 filas disponibles.
+2024-12-19 13:40:36,866 [INFO] Procesando validación para PGR...
+2024-12-19 13:40:39,673 [INFO] Datos extraídos para PGR. Total de filas: 41213
+2024-12-19 13:40:39,680 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:39,681 [WARNING] Datos insuficientes para PGR: 13210 filas disponibles.
+2024-12-19 13:40:39,681 [INFO] Procesando validación para AEP...
+2024-12-19 13:40:42,562 [INFO] Datos extraídos para AEP. Total de filas: 42220
+2024-12-19 13:40:42,570 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:42,570 [WARNING] Datos insuficientes para AEP: 13771 filas disponibles.
+2024-12-19 13:40:42,570 [INFO] Procesando validación para AMT...
+2024-12-19 13:40:45,201 [INFO] Datos extraídos para AMT. Total de filas: 41395
+2024-12-19 13:40:45,210 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:45,210 [WARNING] Datos insuficientes para AMT: 13452 filas disponibles.
+2024-12-19 13:40:45,210 [INFO] Procesando validación para APA...
+2024-12-19 13:40:47,718 [INFO] Datos extraídos para APA. Total de filas: 48495
+2024-12-19 13:40:47,726 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:47,726 [WARNING] Datos insuficientes para APA: 16136 filas disponibles.
+2024-12-19 13:40:47,726 [INFO] Procesando validación para KIM...
+2024-12-19 13:40:51,070 [INFO] Datos extraídos para KIM. Total de filas: 40605
+2024-12-19 13:40:51,079 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:51,079 [WARNING] Datos insuficientes para KIM: 12916 filas disponibles.
+2024-12-19 13:40:51,079 [INFO] Procesando validación para SMCI...
+2024-12-19 13:40:53,623 [INFO] Datos extraídos para SMCI. Total de filas: 67168
+2024-12-19 13:40:53,646 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:53,647 [WARNING] Datos insuficientes para SMCI: 24496 filas disponibles.
+2024-12-19 13:40:53,647 [INFO] Procesando validación para RTX...
+2024-12-19 13:40:56,134 [INFO] Datos extraídos para RTX. Total de filas: 47187
+2024-12-19 13:40:56,143 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:56,143 [WARNING] Datos insuficientes para RTX: 16168 filas disponibles.
+2024-12-19 13:40:56,143 [INFO] Procesando validación para C...
+2024-12-19 13:40:58,727 [INFO] Datos extraídos para C. Total de filas: 60486
+2024-12-19 13:40:58,737 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:40:58,737 [WARNING] Datos insuficientes para C: 22347 filas disponibles.
+2024-12-19 13:40:58,738 [INFO] Procesando validación para GILD...
+2024-12-19 13:41:01,217 [INFO] Datos extraídos para GILD. Total de filas: 46594
+2024-12-19 13:41:01,225 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:01,225 [WARNING] Datos insuficientes para GILD: 15924 filas disponibles.
+2024-12-19 13:41:01,226 [INFO] Procesando validación para COP...
+2024-12-19 13:41:03,636 [INFO] Datos extraídos para COP. Total de filas: 46480
+2024-12-19 13:41:03,644 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:03,644 [WARNING] Datos insuficientes para COP: 15546 filas disponibles.
+2024-12-19 13:41:03,644 [INFO] Procesando validación para CVX...
+2024-12-19 13:41:06,033 [INFO] Datos extraídos para CVX. Total de filas: 55452
+2024-12-19 13:41:06,043 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:06,043 [WARNING] Datos insuficientes para CVX: 19618 filas disponibles.
+2024-12-19 13:41:06,043 [INFO] Procesando validación para XOM...
+2024-12-19 13:41:09,950 [INFO] Datos extraídos para XOM. Total de filas: 63186
+2024-12-19 13:41:09,960 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:09,960 [WARNING] Datos insuficientes para XOM: 22851 filas disponibles.
+2024-12-19 13:41:09,960 [INFO] Procesando validación para PEP...
+2024-12-19 13:41:12,444 [INFO] Datos extraídos para PEP. Total de filas: 47222
+2024-12-19 13:41:12,453 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:12,453 [WARNING] Datos insuficientes para PEP: 16156 filas disponibles.
+2024-12-19 13:41:12,453 [INFO] Procesando validación para BLDR...
+2024-12-19 13:41:14,878 [INFO] Datos extraídos para BLDR. Total de filas: 42145
+2024-12-19 13:41:14,886 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:14,887 [WARNING] Datos insuficientes para BLDR: 13640 filas disponibles.
+2024-12-19 13:41:14,887 [INFO] Procesando validación para ATO...
+2024-12-19 13:41:17,370 [INFO] Datos extraídos para ATO. Total de filas: 39905
+2024-12-19 13:41:17,391 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:17,391 [WARNING] Datos insuficientes para ATO: 12733 filas disponibles.
+2024-12-19 13:41:17,391 [INFO] Procesando validación para FRT...
+2024-12-19 13:41:19,841 [INFO] Datos extraídos para FRT. Total de filas: 39695
+2024-12-19 13:41:19,849 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:19,849 [WARNING] Datos insuficientes para FRT: 12668 filas disponibles.
+2024-12-19 13:41:19,849 [INFO] Procesando validación para COO...
+2024-12-19 13:41:22,293 [INFO] Datos extraídos para COO. Total de filas: 38446
+2024-12-19 13:41:22,301 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:22,301 [WARNING] Datos insuficientes para COO: 12502 filas disponibles.
+2024-12-19 13:41:22,302 [INFO] Procesando validación para SLB...
+2024-12-19 13:41:24,798 [INFO] Datos extraídos para SLB. Total de filas: 53234
+2024-12-19 13:41:24,807 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:24,807 [WARNING] Datos insuficientes para SLB: 17365 filas disponibles.
+2024-12-19 13:41:24,807 [INFO] Procesando validación para HSIC...
+2024-12-19 13:41:27,496 [INFO] Datos extraídos para HSIC. Total de filas: 40056
+2024-12-19 13:41:27,503 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:27,504 [WARNING] Datos insuficientes para HSIC: 12749 filas disponibles.
+2024-12-19 13:41:27,504 [INFO] Procesando validación para T...
+2024-12-19 13:41:30,032 [INFO] Datos extraídos para T. Total de filas: 68903
+2024-12-19 13:41:30,055 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:30,056 [WARNING] Datos insuficientes para T: 26533 filas disponibles.
+2024-12-19 13:41:30,056 [INFO] Procesando validación para NSC...
+2024-12-19 13:41:34,120 [INFO] Datos extraídos para NSC. Total de filas: 40597
+2024-12-19 13:41:34,128 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:34,128 [WARNING] Datos insuficientes para NSC: 13072 filas disponibles.
+2024-12-19 13:41:34,128 [INFO] Procesando validación para BIIB...
+2024-12-19 13:41:36,647 [INFO] Datos extraídos para BIIB. Total de filas: 41632
+2024-12-19 13:41:36,654 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:36,655 [WARNING] Datos insuficientes para BIIB: 13541 filas disponibles.
+2024-12-19 13:41:36,655 [INFO] Procesando validación para CBRE...
+2024-12-19 13:41:39,015 [INFO] Datos extraídos para CBRE. Total de filas: 40371
+2024-12-19 13:41:39,023 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:39,023 [WARNING] Datos insuficientes para CBRE: 12956 filas disponibles.
+2024-12-19 13:41:39,024 [INFO] Procesando validación para MSCI...
+2024-12-19 13:41:41,366 [INFO] Datos extraídos para MSCI. Total de filas: 39106
+2024-12-19 13:41:41,373 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:41,374 [WARNING] Datos insuficientes para MSCI: 12605 filas disponibles.
+2024-12-19 13:41:41,374 [INFO] Procesando validación para MA...
+2024-12-19 13:41:43,809 [INFO] Datos extraídos para MA. Total de filas: 42249
+2024-12-19 13:41:43,817 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:43,817 [WARNING] Datos insuficientes para MA: 13760 filas disponibles.
+2024-12-19 13:41:43,817 [INFO] Procesando validación para EQR...
+2024-12-19 13:41:46,193 [INFO] Datos extraídos para EQR. Total de filas: 40310
+2024-12-19 13:41:46,201 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:46,201 [WARNING] Datos insuficientes para EQR: 12897 filas disponibles.
+2024-12-19 13:41:46,201 [INFO] Procesando validación para TSCO...
+2024-12-19 13:41:48,571 [INFO] Datos extraídos para TSCO. Total de filas: 40689
+2024-12-19 13:41:48,579 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:48,579 [WARNING] Datos insuficientes para TSCO: 13013 filas disponibles.
+2024-12-19 13:41:48,579 [INFO] Procesando validación para EMR...
+2024-12-19 13:41:50,926 [INFO] Datos extraídos para EMR. Total de filas: 41566
+2024-12-19 13:41:50,933 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:50,933 [WARNING] Datos insuficientes para EMR: 13415 filas disponibles.
+2024-12-19 13:41:50,933 [INFO] Procesando validación para AZO...
+2024-12-19 13:41:53,310 [INFO] Datos extraídos para AZO. Total de filas: 29249
+2024-12-19 13:41:53,318 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:53,318 [WARNING] Datos insuficientes para AZO: 10170 filas disponibles.
+2024-12-19 13:41:53,318 [INFO] Procesando validación para DOV...
+2024-12-19 13:41:55,676 [INFO] Datos extraídos para DOV. Total de filas: 40138
+2024-12-19 13:41:55,683 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:55,683 [WARNING] Datos insuficientes para DOV: 12822 filas disponibles.
+2024-12-19 13:41:55,683 [INFO] Procesando validación para PM...
+2024-12-19 13:41:57,967 [INFO] Datos extraídos para PM. Total de filas: 43717
+2024-12-19 13:41:57,975 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:41:57,975 [WARNING] Datos insuficientes para PM: 14499 filas disponibles.
+2024-12-19 13:41:57,975 [INFO] Procesando validación para IBM...
+2024-12-19 13:42:00,425 [INFO] Datos extraídos para IBM. Total de filas: 48524
+2024-12-19 13:42:00,434 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:00,434 [WARNING] Datos insuficientes para IBM: 16652 filas disponibles.
+2024-12-19 13:42:00,434 [INFO] Procesando validación para ICE...
+2024-12-19 13:42:02,808 [INFO] Datos extraídos para ICE. Total de filas: 40701
+2024-12-19 13:42:02,816 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:02,816 [WARNING] Datos insuficientes para ICE: 13135 filas disponibles.
+2024-12-19 13:42:02,817 [INFO] Procesando validación para GL...
+2024-12-19 13:42:05,158 [INFO] Datos extraídos para GL. Total de filas: 40711
+2024-12-19 13:42:05,166 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:05,166 [WARNING] Datos insuficientes para GL: 13106 filas disponibles.
+2024-12-19 13:42:05,166 [INFO] Procesando validación para CMI...
+2024-12-19 13:42:07,526 [INFO] Datos extraídos para CMI. Total de filas: 40560
+2024-12-19 13:42:07,534 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:07,534 [WARNING] Datos insuficientes para CMI: 13132 filas disponibles.
+2024-12-19 13:42:07,534 [INFO] Procesando validación para CCL...
+2024-12-19 13:42:10,010 [INFO] Datos extraídos para CCL. Total de filas: 83471
+2024-12-19 13:42:10,021 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:10,021 [WARNING] Datos insuficientes para CCL: 31104 filas disponibles.
+2024-12-19 13:42:10,021 [INFO] Procesando validación para SW...
+2024-12-19 13:42:12,420 [INFO] Datos extraídos para SW. Total de filas: 45113
+2024-12-19 13:42:12,429 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:12,429 [WARNING] Datos insuficientes para SW: 13177 filas disponibles.
+2024-12-19 13:42:12,430 [INFO] Procesando validación para AVY...
+2024-12-19 13:42:14,537 [INFO] Datos extraídos para AVY. Total de filas: 39090
+2024-12-19 13:42:14,545 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:14,545 [WARNING] Datos insuficientes para AVY: 12592 filas disponibles.
+2024-12-19 13:42:14,545 [INFO] Procesando validación para AXON...
+2024-12-19 13:42:16,686 [INFO] Datos extraídos para AXON. Total de filas: 40433
+2024-12-19 13:42:16,694 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:16,694 [WARNING] Datos insuficientes para AXON: 13086 filas disponibles.
+2024-12-19 13:42:16,694 [INFO] Procesando validación para NCLH...
+2024-12-19 13:42:18,925 [INFO] Datos extraídos para NCLH. Total de filas: 64444
+2024-12-19 13:42:18,934 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:18,935 [WARNING] Datos insuficientes para NCLH: 24572 filas disponibles.
+2024-12-19 13:42:18,935 [INFO] Procesando validación para LUV...
+2024-12-19 13:42:21,103 [INFO] Datos extraídos para LUV. Total de filas: 54624
+2024-12-19 13:42:21,112 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:21,113 [WARNING] Datos insuficientes para LUV: 19794 filas disponibles.
+2024-12-19 13:42:21,113 [INFO] Procesando validación para CNC...
+2024-12-19 13:42:23,321 [INFO] Datos extraídos para CNC. Total de filas: 41719
+2024-12-19 13:42:23,329 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:23,330 [WARNING] Datos insuficientes para CNC: 13420 filas disponibles.
+2024-12-19 13:42:23,330 [INFO] Procesando validación para ULTA...
+2024-12-19 13:42:25,531 [INFO] Datos extraídos para ULTA. Total de filas: 42609
+2024-12-19 13:42:25,539 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:25,539 [WARNING] Datos insuficientes para ULTA: 14014 filas disponibles.
+2024-12-19 13:42:25,539 [INFO] Procesando validación para EXC...
+2024-12-19 13:42:27,732 [INFO] Datos extraídos para EXC. Total de filas: 43146
+2024-12-19 13:42:27,741 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:27,741 [WARNING] Datos insuficientes para EXC: 13910 filas disponibles.
+2024-12-19 13:42:27,741 [INFO] Procesando validación para GM...
+2024-12-19 13:42:29,895 [INFO] Datos extraídos para GM. Total de filas: 59303
+2024-12-19 13:42:29,904 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:29,904 [WARNING] Datos insuficientes para GM: 21496 filas disponibles.
+2024-12-19 13:42:29,904 [INFO] Procesando validación para BX...
+2024-12-19 13:42:32,108 [INFO] Datos extraídos para BX. Total de filas: 45560
+2024-12-19 13:42:32,116 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:32,117 [WARNING] Datos insuficientes para BX: 15302 filas disponibles.
+2024-12-19 13:42:32,117 [INFO] Procesando validación para APTV...
+2024-12-19 13:42:34,346 [INFO] Datos extraídos para APTV. Total de filas: 41059
+2024-12-19 13:42:34,355 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:34,355 [WARNING] Datos insuficientes para APTV: 13074 filas disponibles.
+2024-12-19 13:42:34,355 [INFO] Procesando validación para COF...
+2024-12-19 13:42:36,547 [INFO] Datos extraídos para COF. Total de filas: 42877
+2024-12-19 13:42:36,555 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:36,555 [WARNING] Datos insuficientes para COF: 14101 filas disponibles.
+2024-12-19 13:42:36,555 [INFO] Procesando validación para ZBRA...
+2024-12-19 13:42:38,742 [INFO] Datos extraídos para ZBRA. Total de filas: 38725
+2024-12-19 13:42:38,763 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:38,763 [WARNING] Datos insuficientes para ZBRA: 12522 filas disponibles.
+2024-12-19 13:42:38,763 [INFO] Procesando validación para COST...
+2024-12-19 13:42:41,681 [INFO] Datos extraídos para COST. Total de filas: 46360
+2024-12-19 13:42:41,689 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:41,689 [WARNING] Datos insuficientes para COST: 16317 filas disponibles.
+2024-12-19 13:42:41,689 [INFO] Procesando validación para AIZ...
+2024-12-19 13:42:43,857 [INFO] Datos extraídos para AIZ. Total de filas: 38527
+2024-12-19 13:42:43,880 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:43,880 [WARNING] Datos insuficientes para AIZ: 12466 filas disponibles.
+2024-12-19 13:42:43,880 [INFO] Procesando validación para YUM...
+2024-12-19 13:42:46,097 [INFO] Datos extraídos para YUM. Total de filas: 40874
+2024-12-19 13:42:46,106 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:46,106 [WARNING] Datos insuficientes para YUM: 13279 filas disponibles.
+2024-12-19 13:42:46,106 [INFO] Procesando validación para ESS...
+2024-12-19 13:42:48,379 [INFO] Datos extraídos para ESS. Total de filas: 38269
+2024-12-19 13:42:48,386 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:48,387 [WARNING] Datos insuficientes para ESS: 12419 filas disponibles.
+2024-12-19 13:42:48,387 [INFO] Procesando validación para LLY...
+2024-12-19 13:42:50,593 [INFO] Datos extraídos para LLY. Total de filas: 50492
+2024-12-19 13:42:50,602 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:50,602 [WARNING] Datos insuficientes para LLY: 16939 filas disponibles.
+2024-12-19 13:42:50,602 [INFO] Procesando validación para AMCR...
+2024-12-19 13:42:52,773 [INFO] Datos extraídos para AMCR. Total de filas: 41790
+2024-12-19 13:42:52,781 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:52,781 [WARNING] Datos insuficientes para AMCR: 13264 filas disponibles.
+2024-12-19 13:42:52,781 [INFO] Procesando validación para INCY...
+2024-12-19 13:42:55,020 [INFO] Datos extraídos para INCY. Total de filas: 40884
+2024-12-19 13:42:55,040 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:55,040 [WARNING] Datos insuficientes para INCY: 13051 filas disponibles.
+2024-12-19 13:42:55,040 [INFO] Procesando validación para BDX...
+2024-12-19 13:42:57,305 [INFO] Datos extraídos para BDX. Total de filas: 40364
+2024-12-19 13:42:57,313 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:57,313 [WARNING] Datos insuficientes para BDX: 12896 filas disponibles.
+2024-12-19 13:42:57,313 [INFO] Procesando validación para BAX...
+2024-12-19 13:42:59,560 [INFO] Datos extraídos para BAX. Total de filas: 41424
+2024-12-19 13:42:59,568 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:42:59,569 [WARNING] Datos insuficientes para BAX: 13287 filas disponibles.
+2024-12-19 13:42:59,569 [INFO] Procesando validación para CME...
+2024-12-19 13:43:01,024 [INFO] Datos extraídos para CME. Total de filas: 41008
+2024-12-19 13:43:01,032 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:01,032 [WARNING] Datos insuficientes para CME: 13345 filas disponibles.
+2024-12-19 13:43:01,032 [INFO] Procesando validación para FIS...
+2024-12-19 13:43:03,379 [INFO] Datos extraídos para FIS. Total de filas: 41405
+2024-12-19 13:43:03,387 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:03,387 [WARNING] Datos insuficientes para FIS: 13326 filas disponibles.
+2024-12-19 13:43:03,387 [INFO] Procesando validación para CMG...
+2024-12-19 13:43:05,726 [INFO] Datos extraídos para CMG. Total de filas: 43850
+2024-12-19 13:43:05,734 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:05,734 [WARNING] Datos insuficientes para CMG: 15931 filas disponibles.
+2024-12-19 13:43:05,734 [INFO] Procesando validación para SJM...
+2024-12-19 13:43:08,102 [INFO] Datos extraídos para SJM. Total de filas: 40427
+2024-12-19 13:43:08,110 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:08,110 [WARNING] Datos insuficientes para SJM: 12927 filas disponibles.
+2024-12-19 13:43:08,110 [INFO] Procesando validación para AVB...
+2024-12-19 13:43:10,542 [INFO] Datos extraídos para AVB. Total de filas: 39839
+2024-12-19 13:43:10,550 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:10,550 [WARNING] Datos insuficientes para AVB: 12739 filas disponibles.
+2024-12-19 13:43:10,550 [INFO] Procesando validación para GPC...
+2024-12-19 13:43:12,902 [INFO] Datos extraídos para GPC. Total de filas: 40251
+2024-12-19 13:43:12,910 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:12,910 [WARNING] Datos insuficientes para GPC: 12873 filas disponibles.
+2024-12-19 13:43:12,910 [INFO] Procesando validación para CFG...
+2024-12-19 13:43:15,274 [INFO] Datos extraídos para CFG. Total de filas: 43129
+2024-12-19 13:43:15,281 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:15,282 [WARNING] Datos insuficientes para CFG: 14020 filas disponibles.
+2024-12-19 13:43:15,282 [INFO] Procesando validación para CDNS...
+2024-12-19 13:43:17,693 [INFO] Datos extraídos para CDNS. Total de filas: 42513
+2024-12-19 13:43:17,702 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:17,702 [WARNING] Datos insuficientes para CDNS: 13926 filas disponibles.
+2024-12-19 13:43:17,703 [INFO] Procesando validación para JBL...
+2024-12-19 13:43:20,435 [INFO] Datos extraídos para JBL. Total de filas: 41167
+2024-12-19 13:43:20,456 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:20,456 [WARNING] Datos insuficientes para JBL: 13302 filas disponibles.
+2024-12-19 13:43:20,457 [INFO] Procesando validación para XYL...
+2024-12-19 13:43:22,902 [INFO] Datos extraídos para XYL. Total de filas: 40522
+2024-12-19 13:43:22,910 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:22,911 [WARNING] Datos insuficientes para XYL: 12879 filas disponibles.
+2024-12-19 13:43:22,911 [INFO] Procesando validación para REGN...
+2024-12-19 13:43:25,332 [INFO] Datos extraídos para REGN. Total de filas: 40002
+2024-12-19 13:43:25,340 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:25,341 [WARNING] Datos insuficientes para REGN: 13123 filas disponibles.
+2024-12-19 13:43:25,341 [INFO] Procesando validación para MCK...
+2024-12-19 13:43:27,790 [INFO] Datos extraídos para MCK. Total de filas: 40227
+2024-12-19 13:43:27,798 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:27,798 [WARNING] Datos insuficientes para MCK: 12954 filas disponibles.
+2024-12-19 13:43:27,798 [INFO] Procesando validación para SPGI...
+2024-12-19 13:43:30,221 [INFO] Datos extraídos para SPGI. Total de filas: 40637
+2024-12-19 13:43:30,229 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:30,230 [WARNING] Datos insuficientes para SPGI: 13191 filas disponibles.
+2024-12-19 13:43:30,230 [INFO] Procesando validación para DFS...
+2024-12-19 13:43:32,628 [INFO] Datos extraídos para DFS. Total de filas: 41963
+2024-12-19 13:43:32,650 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:32,650 [WARNING] Datos insuficientes para DFS: 13699 filas disponibles.
+2024-12-19 13:43:32,650 [INFO] Procesando validación para MS...
+2024-12-19 13:43:35,096 [INFO] Datos extraídos para MS. Total de filas: 48989
+2024-12-19 13:43:35,104 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:35,104 [WARNING] Datos insuficientes para MS: 17092 filas disponibles.
+2024-12-19 13:43:35,105 [INFO] Procesando validación para HUBB...
+2024-12-19 13:43:37,502 [INFO] Datos extraídos para HUBB. Total de filas: 38963
+2024-12-19 13:43:37,510 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:37,510 [WARNING] Datos insuficientes para HUBB: 12498 filas disponibles.
+2024-12-19 13:43:37,511 [INFO] Procesando validación para LOW...
+2024-12-19 13:43:39,953 [INFO] Datos extraídos para LOW. Total de filas: 43497
+2024-12-19 13:43:39,961 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:39,961 [WARNING] Datos insuficientes para LOW: 14359 filas disponibles.
+2024-12-19 13:43:39,961 [INFO] Procesando validación para TPL...
+2024-12-19 13:43:42,262 [INFO] Datos extraídos para TPL. Total de filas: 15213
+2024-12-19 13:43:42,271 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:42,271 [WARNING] Datos insuficientes para TPL: 5689 filas disponibles.
+2024-12-19 13:43:42,271 [INFO] Procesando validación para PH...
+2024-12-19 13:43:44,721 [INFO] Datos extraídos para PH. Total de filas: 39986
+2024-12-19 13:43:44,728 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:44,728 [WARNING] Datos insuficientes para PH: 12813 filas disponibles.
+2024-12-19 13:43:44,729 [INFO] Procesando validación para NRG...
+2024-12-19 13:43:47,130 [INFO] Datos extraídos para NRG. Total de filas: 41975
+2024-12-19 13:43:47,138 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:47,138 [WARNING] Datos insuficientes para NRG: 13444 filas disponibles.
+2024-12-19 13:43:47,138 [INFO] Procesando validación para CPT...
+2024-12-19 13:43:49,494 [INFO] Datos extraídos para CPT. Total de filas: 39985
+2024-12-19 13:43:49,501 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:49,502 [WARNING] Datos insuficientes para CPT: 12730 filas disponibles.
+2024-12-19 13:43:49,502 [INFO] Procesando validación para F...
+2024-12-19 13:43:52,057 [INFO] Datos extraídos para F. Total de filas: 80492
+2024-12-19 13:43:52,068 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:52,068 [WARNING] Datos insuficientes para F: 33200 filas disponibles.
+2024-12-19 13:43:52,068 [INFO] Procesando validación para MTB...
+2024-12-19 13:43:54,542 [INFO] Datos extraídos para MTB. Total de filas: 40838
+2024-12-19 13:43:54,550 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:54,550 [WARNING] Datos insuficientes para MTB: 13042 filas disponibles.
+2024-12-19 13:43:54,550 [INFO] Procesando validación para HBAN...
+2024-12-19 13:43:56,976 [INFO] Datos extraídos para HBAN. Total de filas: 46190
+2024-12-19 13:43:56,985 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:56,985 [WARNING] Datos insuficientes para HBAN: 15277 filas disponibles.
+2024-12-19 13:43:56,985 [INFO] Procesando validación para DELL...
+2024-12-19 13:43:59,478 [INFO] Datos extraídos para DELL. Total de filas: 57795
+2024-12-19 13:43:59,487 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:43:59,487 [WARNING] Datos insuficientes para DELL: 20545 filas disponibles.
+2024-12-19 13:43:59,487 [INFO] Procesando validación para BEN...
+2024-12-19 13:44:02,368 [INFO] Datos extraídos para BEN. Total de filas: 41482
+2024-12-19 13:44:02,376 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:02,376 [WARNING] Datos insuficientes para BEN: 13155 filas disponibles.
+2024-12-19 13:44:02,376 [INFO] Procesando validación para PCG...
+2024-12-19 13:44:04,870 [INFO] Datos extraídos para PCG. Total de filas: 43275
+2024-12-19 13:44:04,878 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:04,878 [WARNING] Datos insuficientes para PCG: 14109 filas disponibles.
+2024-12-19 13:44:04,879 [INFO] Procesando validación para MDT...
+2024-12-19 13:44:07,463 [INFO] Datos extraídos para MDT. Total de filas: 43778
+2024-12-19 13:44:07,472 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:07,472 [WARNING] Datos insuficientes para MDT: 14315 filas disponibles.
+2024-12-19 13:44:07,473 [INFO] Procesando validación para WST...
+2024-12-19 13:44:09,940 [INFO] Datos extraídos para WST. Total de filas: 38938
+2024-12-19 13:44:09,947 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:09,947 [WARNING] Datos insuficientes para WST: 12551 filas disponibles.
+2024-12-19 13:44:09,947 [INFO] Procesando validación para CARR...
+2024-12-19 13:44:12,613 [INFO] Datos extraídos para CARR. Total de filas: 42133
+2024-12-19 13:44:12,621 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:12,621 [WARNING] Datos insuficientes para CARR: 13274 filas disponibles.
+2024-12-19 13:44:12,621 [INFO] Procesando validación para GD...
+2024-12-19 13:44:16,141 [INFO] Datos extraídos para GD. Total de filas: 41000
+2024-12-19 13:44:16,149 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:16,149 [WARNING] Datos insuficientes para GD: 13160 filas disponibles.
+2024-12-19 13:44:16,149 [INFO] Procesando validación para CEG...
+2024-12-19 13:44:18,593 [INFO] Datos extraídos para CEG. Total de filas: 43494
+2024-12-19 13:44:18,601 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:18,601 [WARNING] Datos insuficientes para CEG: 14208 filas disponibles.
+2024-12-19 13:44:18,601 [INFO] Procesando validación para DIS...
+2024-12-19 13:44:21,069 [INFO] Datos extraídos para DIS. Total de filas: 69580
+2024-12-19 13:44:21,080 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:21,080 [WARNING] Datos insuficientes para DIS: 27168 filas disponibles.
+2024-12-19 13:44:21,080 [INFO] Procesando validación para NTRS...
+2024-12-19 13:44:24,776 [INFO] Datos extraídos para NTRS. Total de filas: 40376
+2024-12-19 13:44:24,785 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:24,785 [WARNING] Datos insuficientes para NTRS: 12895 filas disponibles.
+2024-12-19 13:44:24,785 [INFO] Procesando validación para PNC...
+2024-12-19 13:44:29,124 [INFO] Datos extraídos para PNC. Total de filas: 42629
+2024-12-19 13:44:29,132 [INFO] Datos ajustados exitosamente al horario de NYSE.
+2024-12-19 13:44:29,133 [WARNING] Datos insuficientes para PNC: 14009 filas disponibles.
+2024-12-19 13:44:29,139 [INFO] Reporte generado: validation_report.csv
+2024-12-19 13:44:29,140 [INFO] Conexión a la base de datos cerrada.
+(trading-platform-env) ivanbaron@192 trading-platform % 

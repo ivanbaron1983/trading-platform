@@ -1,159 +1,180 @@
 import os
 import pandas as pd
-import requests
+from alpaca_trade_api.rest import REST
 from sqlalchemy.orm import Session
+from sqlalchemy.sql import text
 from backend.app.db import SessionLocal
-from backend.app.models import SP500IntradayData  # Ajusta según tu modelo intradía
+from backend.app.models import SP500IntradayData
 from dotenv import load_dotenv
 import logging
 import time
+from pytz import timezone
 
 # Configuración de logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("polygon_intraday_loader.log"),
+        logging.FileHandler("alpaca_live_data_loader.log"),
         logging.StreamHandler()
     ]
 )
 
-# Cargar la clave API desde el archivo .env
+# Configuración del horario de la Bolsa de Nueva York (NYSE)
+NYSE_TZ = timezone("America/New_York")
+MARKET_OPEN = "09:30:00"
+MARKET_CLOSE = "16:00:00"
+
+# Cargar variables de entorno del archivo .env
 load_dotenv()
-POLYGON_API_KEY = os.getenv("POLYGON_API_KEY")
-if not POLYGON_API_KEY:
-    raise ValueError("La clave API de Polygon.io no está configurada en el archivo .env")
+ALPACA_API_KEY = os.getenv("ALPACA_LIVE_API_KEY")
+ALPACA_SECRET_KEY = os.getenv("ALPACA_LIVE_SECRET_KEY")
 
-# Ruta para guardar datos temporalmente
+if not ALPACA_API_KEY or not ALPACA_SECRET_KEY:
+    raise ValueError("Las claves API Live de Alpaca no están configuradas en el archivo .env")
+
+# Configuración de Alpaca Live
+alpaca_api = REST(ALPACA_API_KEY, ALPACA_SECRET_KEY, base_url="https://api.alpaca.markets")
+
+# Ruta de la carpeta de datos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "../../data/sp500_intraday")
+DATA_DIR = os.path.join(BASE_DIR, "../../data/sp500_5min_live")
 os.makedirs(DATA_DIR, exist_ok=True)
+logging.info(f"Carpeta de datos asegurada: {DATA_DIR}")
 
-# Configuración de límites de solicitudes
-REQUESTS_LIMIT = 5  # Límite de llamadas por minuto para la cuenta Basic
-REQUEST_COUNT = 0
-START_TIME = time.time()
-
-# Función para manejar el límite de solicitudes
-def wait_if_limit_reached():
-    global REQUEST_COUNT, START_TIME
-    if REQUEST_COUNT >= REQUESTS_LIMIT:
-        elapsed_time = time.time() - START_TIME
-        if elapsed_time < 60:
-            wait_time = 60 - elapsed_time
-            logging.info(f"Límite alcanzado. Esperando {wait_time:.2f} segundos...")
-            time.sleep(wait_time)
-        REQUEST_COUNT = 0
-        START_TIME = time.time()
-
-# Función para verificar disponibilidad del ticker
-def check_ticker_availability(symbol):
-    """Consulta la fecha desde la cual hay datos disponibles para un símbolo en Polygon.io."""
-    url = f"https://api.polygon.io/v3/reference/tickers/{symbol}"
-    params = {"apiKey": POLYGON_API_KEY}
+def clear_intraday_table(session: Session):
+    """Limpia la tabla de datos intradía antes de una nueva descarga."""
     try:
-        response = requests.get(url, params=params)
-        if response.status_code == 200:
-            data = response.json()
-            if "results" in data and "list_date" in data["results"]:
-                return data["results"]["list_date"]
-        else:
-            logging.warning(f"No se pudo verificar disponibilidad para {symbol}: {response.status_code}")
+        session.execute(text("TRUNCATE TABLE sp500_intraday_data"))
+        session.commit()
+        logging.info("Tabla sp500_intraday_data limpiada exitosamente.")
     except Exception as e:
-        logging.error(f"Error al verificar disponibilidad para {symbol}: {e}")
-    return "2018-01-01"  # Fecha por defecto
+        session.rollback()
+        logging.error(f"Error al limpiar la tabla sp500_intraday_data: {e}")
 
-# Función para descargar datos intradía
-def download_intraday_data(symbol, start_date, end_date="2023-12-31", retries=3):
-    """Descarga datos intradía de un símbolo desde Polygon.io."""
-    global REQUEST_COUNT
-    url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/minute/{start_date}/{end_date}"
-    params = {"adjusted": "true", "sort": "asc", "apiKey": POLYGON_API_KEY}
-    
-    for attempt in range(retries):
-        try:
-            wait_if_limit_reached()  # Controlar límite de solicitudes
-            response = requests.get(url, params=params)
-            REQUEST_COUNT += 1
-
-            if response.status_code == 200:
-                data = response.json().get("results", [])
-                if not data:
-                    logging.warning(f"No se encontraron datos para {symbol}.")
-                    return pd.DataFrame()
-
-                # Convertir datos a DataFrame
-                df = pd.DataFrame(data)
-                df["timestamp"] = pd.to_datetime(df["t"], unit="ms")
-                df.rename(columns={
-                    "o": "Open",
-                    "h": "High",
-                    "l": "Low",
-                    "c": "Close",
-                    "v": "Volume",
-                    "timestamp": "Datetime"
-                }, inplace=True)
-
-                return df[["Datetime", "Open", "High", "Low", "Close", "Volume"]]
-            else:
-                logging.error(f"Error al descargar datos para {symbol}: {response.status_code} - {response.text}")
-        except Exception as e:
-            logging.error(f"Error en el intento {attempt + 1} para {symbol}: {e}")
-            if attempt < retries - 1:
-                time.sleep(2 ** attempt)  # Retraso exponencial antes de reintentar
-    return pd.DataFrame()
-
-# Limpieza de datos
-def clean_data(data: pd.DataFrame):
-    """Limpia y valida los datos descargados."""
+def filter_market_hours(data: pd.DataFrame):
+    """Filtra los datos para incluir solo las horas normales del mercado."""
     try:
-        data.dropna(inplace=True)
+        # Convertir Datetime a un objeto datetime y gestionar la zona horaria
+        data["Datetime"] = pd.to_datetime(data["Datetime"], errors="coerce")
+
+        if data["Datetime"].dt.tz is None:  # Si no tiene timezone
+            data["Datetime"] = data["Datetime"].dt.tz_localize("UTC")
+        else:  # Si ya tiene timezone, convertir a NYSE
+            data["Datetime"] = data["Datetime"].dt.tz_convert(NYSE_TZ)
+
+        # Filtrar solo las filas dentro del horario normal del mercado
+        data["time"] = data["Datetime"].dt.strftime("%H:%M:%S")
+        data = data[(data["time"] >= MARKET_OPEN) & (data["time"] <= MARKET_CLOSE)]
+
+        # Crear una nueva copia eliminando la columna auxiliar 'time'
+        data = data.drop(columns=["time"])
+
+        logging.info(f"Datos filtrados al horario del mercado (NYSE). Filas restantes: {len(data)}.")
         return data
     except Exception as e:
-        logging.error(f"Error al limpiar datos: {e}")
+        logging.error(f"Error al filtrar los datos al horario del mercado: {e}")
         return pd.DataFrame()
 
-# Guardar datos en la base de datos
+
+
+
+def download_5min_data(symbol, start_date="2000-01-01", retries=3):
+    """Descarga datos históricos de 5 minutos para una acción desde Alpaca Live."""
+    for attempt in range(retries):
+        try:
+            bars = alpaca_api.get_bars(
+                symbol, timeframe="5Min", start=start_date, adjustment="all"
+            ).df
+
+            if bars.empty:
+                logging.warning(f"No se encontraron datos para {symbol}.")
+                return pd.DataFrame()
+
+            bars.reset_index(inplace=True)
+            bars.rename(columns={
+                'timestamp': 'Datetime',
+                'open': 'Open',
+                'high': 'High',
+                'low': 'Low',
+                'close': 'Close',
+                'volume': 'Volume',
+                'trade_count': 'TradeCount',
+                'vwap': 'VWAP'
+            }, inplace=True)
+
+            # Filtrar datos para el horario del mercado
+            bars = filter_market_hours(bars)
+
+            logging.info(f"Datos descargados para {symbol}. Filas válidas: {len(bars)}.")
+            return bars
+        except Exception as e:
+            logging.error(f"Error al descargar los datos para {symbol}: {e}")
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+            else:
+                logging.error(f"Falló la descarga para {symbol} después de {retries} intentos.")
+    return pd.DataFrame()
+
 def save_to_db(session: Session, symbol: str, data: pd.DataFrame):
-    """Guarda datos intradía en la base de datos."""
+    """Guarda datos de 5 minutos en la base de datos."""
+    logging.info(f"Comenzando el guardado de datos para {symbol}. Total de filas: {len(data)}")
+
+    records = []
     for _, row in data.iterrows():
         try:
-            session.add(SP500IntradayData(
+            record = SP500IntradayData(
                 symbol=symbol,
                 datetime=row["Datetime"],
                 open=row["Open"],
                 high=row["High"],
                 low=row["Low"],
                 close=row["Close"],
-                volume=row["Volume"]
-            ))
+                volume=row["Volume"],
+                trade_count=row["TradeCount"],
+                vwap=row["VWAP"]
+            )
+            records.append(record)
         except Exception as e:
-            logging.error(f"Error al guardar datos para {symbol}: {e}")
+            logging.error(f"Error al procesar fila para {symbol}: {e}")
+            continue
+
     try:
+        session.bulk_save_objects(records)
         session.commit()
+        logging.info(f"Datos guardados exitosamente para {symbol}.")
     except Exception as e:
         session.rollback()
-        logging.error(f"Error al guardar datos en la base de datos: {e}")
+        logging.error(f"Error al guardar datos en la base de datos para {symbol}: {e}")
 
-# Descarga y almacenamiento de datos intradía
-def download_sp500_intraday_data():
-    """Descarga datos intradía para empresas del S&P 500 y los guarda en la base de datos."""
+def download_live_data():
+    """Descarga datos de 5 minutos para empresas del S&P 500 desde la cuenta Alpaca Live."""
     sp500_companies = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")[0]
-    db_session = SessionLocal()
 
-    try:
-        for _, row in sp500_companies.iterrows():
-            symbol = row["Symbol"]
-            start_date = check_ticker_availability(symbol)
-            logging.info(f"Descargando datos para {symbol} desde {start_date}...")
-            intraday_data = download_intraday_data(symbol, start_date=start_date)
+    if not sp500_companies.empty:
+        db_session = SessionLocal()
 
-            if not intraday_data.empty:
-                clean_data_frame = clean_data(intraday_data)
-                if not clean_data_frame.empty:
-                    save_to_db(db_session, symbol, clean_data_frame)
-    finally:
-        db_session.close()
+        # Limpiar la tabla antes de la descarga
+        clear_intraday_table(db_session)
+
+        try:
+            for _, row in sp500_companies.iterrows():
+                symbol = row["Symbol"]
+                logging.info(f"Procesando {symbol}...")
+                stock_data = download_5min_data(symbol, start_date="2022-12-19")
+
+                if not stock_data.empty:
+                    save_to_db(db_session, symbol, stock_data)
+                else:
+                    logging.warning(f"No se encontraron datos válidos para {symbol}.")
+        finally:
+            db_session.close()
+            logging.info("Conexión a la base de datos cerrada.")
+    else:
+        logging.error("No se pudo obtener la lista de empresas del S&P 500.")
 
 if __name__ == "__main__":
-    download_sp500_intraday_data()
+    logging.info("Iniciando el proceso de descarga de datos de 5 minutos con Alpaca Live...")
+    download_live_data()
+z
+
